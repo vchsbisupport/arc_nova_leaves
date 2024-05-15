@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.novaLeavesHelper</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>novaLeavesHelper</name>
+        <script><![CDATA[var novaLeavesHelper = Class.create();
+novaLeavesHelper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	retAppPct: function() {
+		var emp = this.getParameter('sysparm_emp_sid');
+
+		var usr = new GlideRecord('sys_user');
+		usr.get(emp);
+
+		var appPct = 0;
+
+		var job = new GlideRecord('u_uc_path_jobs');
+		job.addEncodedQuery('u_empl_statusINA,L,P,W^u_employee_number='+usr.employee_number.toString());
+		job.query();
+
+		while (job.next()) {
+			appPct += parseFloat(job.u_fte.toString()) * 100;
+		}
+
+		return appPct;
+	},
+
+	hasFacultyAppt: function() {
+		var emp = this.getParameter('sysparm_emp_sid');
+
+		var usr = new GlideRecord('sys_user');
+		usr.get(emp);
+
+		var hasFac = false;
+
+		var job = new GlideRecord('u_uc_path_jobs');
+		job.addEncodedQuery('u_empl_class=9^u_empl_statusINA,L,P,W^u_employee_number='+usr.employee_number.toString());
+		job.query();
+
+		if (job.next()) {
+			hasFac = true;
+		}
+
+		return hasFac;
+	},
+
+    type: 'novaLeavesHelper'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>tmbuchanan</sys_created_by>
+        <sys_created_on>2024-05-15 21:45:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>adc49bb3870ace100548ca68cebb358b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>novaLeavesHelper</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>sys_script_include_adc49bb3870ace100548ca68cebb358b</sys_update_name>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-05-15 21:59:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

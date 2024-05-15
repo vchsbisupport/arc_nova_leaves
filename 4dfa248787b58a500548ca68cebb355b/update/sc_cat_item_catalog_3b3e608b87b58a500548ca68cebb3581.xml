@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Leave of Absence Submission">bc7de04b87b58a500548ca68cebb35ca</sc_cat_item>
+        <sc_catalog display_value="Forms for Faculty and Academic Employees">a92664396f47610023bd5965bd3ee4bf</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>tmbuchanan</sys_created_by>
+        <sys_created_on>2024-04-30 15:21:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3b3e608b87b58a500548ca68cebb3581</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Forms for Faculty and Academic Employees.Leave of Absence Submission</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_3b3e608b87b58a500548ca68cebb3581</sys_update_name>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-04-30 15:21:23</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>
