@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Compensation" section_id="c1f89ee0db67df403ee7f9261d961992" sys_domain="global" table="u_air_leave" version="3" view="add_leave">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pay_type</element>
+            <position>0</position>
+            <sys_created_by>hfiedler</sys_created_by>
+            <sys_created_on>2023-07-07 16:40:18</sys_created_on>
+            <sys_id>a68656871bb7e9103b2aececbc4bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="u_air_leave" sys_domain="global" view="5c6053d6dbd9c7408a46720ebf9619ed">c1f89ee0db67df403ee7f9261d961992</sys_ui_section>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 16:40:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>hfiedler</sys_created_by>
+            <sys_created_on>2023-07-07 16:40:18</sys_created_on>
+            <sys_id>aa8656871bb7e9103b2aececbc4bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="u_air_leave" sys_domain="global" view="5c6053d6dbd9c7408a46720ebf9619ed">c1f89ee0db67df403ee7f9261d961992</sys_ui_section>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 16:40:18</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_full_salary</element>
+            <position>2</position>
+            <sys_created_by>hfiedler</sys_created_by>
+            <sys_created_on>2023-07-07 16:40:18</sys_created_on>
+            <sys_id>ae8656871bb7e9103b2aececbc4bcbe5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="u_air_leave" sys_domain="global" view="5c6053d6dbd9c7408a46720ebf9619ed">c1f89ee0db67df403ee7f9261d961992</sys_ui_section>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 16:40:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_par_salary</element>
+            <position>3</position>
+            <sys_created_by>hfiedler</sys_created_by>
+            <sys_created_on>2023-07-07 16:40:18</sys_created_on>
+            <sys_id>a28656871bb7e9103b2aececbc4bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="u_air_leave" sys_domain="global" view="5c6053d6dbd9c7408a46720ebf9619ed">c1f89ee0db67df403ee7f9261d961992</sys_ui_section>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 16:40:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_per_time</element>
+            <position>4</position>
+            <sys_created_by>hfiedler</sys_created_by>
+            <sys_created_on>2023-07-07 16:40:18</sys_created_on>
+            <sys_id>a68656871bb7e9103b2aececbc4bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="u_air_leave" sys_domain="global" view="5c6053d6dbd9c7408a46720ebf9619ed">c1f89ee0db67df403ee7f9261d961992</sys_ui_section>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 16:40:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_no_salary</element>
+            <position>5</position>
+            <sys_created_by>hfiedler</sys_created_by>
+            <sys_created_on>2023-07-07 16:40:18</sys_created_on>
+            <sys_id>aa8656871bb7e9103b2aececbc4bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="u_air_leave" sys_domain="global" view="5c6053d6dbd9c7408a46720ebf9619ed">c1f89ee0db67df403ee7f9261d961992</sys_ui_section>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 16:40:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_leave_no_pay</element>
+            <position>6</position>
+            <sys_created_by>hfiedler</sys_created_by>
+            <sys_created_on>2023-07-07 16:40:18</sys_created_on>
+            <sys_id>ae8656871bb7e9103b2aececbc4bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="u_air_leave" sys_domain="global" view="5c6053d6dbd9c7408a46720ebf9619ed">c1f89ee0db67df403ee7f9261d961992</sys_ui_section>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 16:40:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>hfiedler</sys_created_by>
+            <sys_created_on>2023-07-07 16:40:18</sys_created_on>
+            <sys_id>a28656871bb7e9103b2aececbc4bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="u_air_leave" sys_domain="global" view="5c6053d6dbd9c7408a46720ebf9619ed">c1f89ee0db67df403ee7f9261d961992</sys_ui_section>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 16:40:18</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_leave_start</element>
+            <position>8</position>
+            <sys_created_by>hfiedler</sys_created_by>
+            <sys_created_on>2023-07-07 16:40:18</sys_created_on>
+            <sys_id>a68656871bb7e9103b2aececbc4bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="u_air_leave" sys_domain="global" view="5c6053d6dbd9c7408a46720ebf9619ed">c1f89ee0db67df403ee7f9261d961992</sys_ui_section>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 16:40:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_leave_end</element>
+            <position>9</position>
+            <sys_created_by>hfiedler</sys_created_by>
+            <sys_created_on>2023-07-07 16:40:18</sys_created_on>
+            <sys_id>aa8656871bb7e9103b2aececbc4bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="u_air_leave" sys_domain="global" view="5c6053d6dbd9c7408a46720ebf9619ed">c1f89ee0db67df403ee7f9261d961992</sys_ui_section>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 16:40:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>hfiedler</sys_created_by>
+            <sys_created_on>2023-07-07 16:40:18</sys_created_on>
+            <sys_id>ae8656871bb7e9103b2aececbc4bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Compensation" display_value="Compensation" name="u_air_leave" sys_domain="global" view="5c6053d6dbd9c7408a46720ebf9619ed">c1f89ee0db67df403ee7f9261d961992</sys_ui_section>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 16:40:18</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Compensation</caption>
+            <header>false</header>
+            <name>u_air_leave</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2018-07-23 22:29:58</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>c1f89ee0db67df403ee7f9261d961992</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_air_leave</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+            <sys_update_name>sys_ui_section_c1f89ee0db67df403ee7f9261d961992</sys_update_name>
+            <sys_updated_by>tmbuchanan</sys_updated_by>
+            <sys_updated_on>2024-06-03 20:42:02</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="add_leave" name="add_leave">5c6053d6dbd9c7408a46720ebf9619ed</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</claim_owner_scope>
+        <claim_timestamp>18fdfd66b2b0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_section_c1f89ee0db67df403ee7f9261d961992</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>ARC NOVA Leaves</previous_claim_name>
+        <previous_claim_scope>4dfa248787b58a500548ca68cebb355b</previous_claim_scope>
+        <sys_created_by>tmbuchanan</sys_created_by>
+        <sys_created_on>2024-06-03 20:42:02</sys_created_on>
+        <sys_id>14bd78421b2a8e103b2aececbc4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-06-03 20:42:02</sys_updated_on>
+    </sys_claim>
+</record_update>

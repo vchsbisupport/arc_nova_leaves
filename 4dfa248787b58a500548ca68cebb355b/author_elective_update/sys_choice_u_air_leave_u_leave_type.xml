@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_leave_type" table="u_air_leave" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_leave_type</element>
+            <name>u_air_leave</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2017-09-21 20:20:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>u_leave_type</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+            <sys_update_name>sys_choice_u_air_leave_u_leave_type</sys_update_name>
+            <sys_updated_by>tmbuchanan</sys_updated_by>
+            <sys_updated_on>2024-06-03 20:42:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Active Service-Modified Duties (ASMD)</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2018-07-20 23:25:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BryanAdmin</sys_updated_by>
+            <sys_updated_on>2018-07-20 23:25:54</sys_updated_on>
+            <value>Active Service-Modified Duties (ASMD)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Administrative</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2018-07-20 23:26:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BryanAdmin</sys_updated_by>
+            <sys_updated_on>2018-07-20 23:26:01</sys_updated_on>
+            <value>Administrative</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Child Bearing &amp; Parental Leave</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>hhamad</sys_created_by>
+            <sys_created_on>2020-12-04 22:36:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 20:53:29</sys_updated_on>
+            <value>Child Bearing &amp; Parental Leave</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Childbearing Leave</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2017-09-21 20:20:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 20:53:33</sys_updated_on>
+            <value>Childbearing Leave</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Childbearing – Pregnancy Disability</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2018-07-20 23:26:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BryanAdmin</sys_updated_by>
+            <sys_updated_on>2018-07-20 23:26:11</sys_updated_on>
+            <value>Childbearing – Pregnancy Disability</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Extended Illness</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2018-07-20 23:26:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BryanAdmin</sys_updated_by>
+            <sys_updated_on>2018-07-20 23:26:19</sys_updated_on>
+            <value>Extended Illness</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Family Leave</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2018-07-23 22:33:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BryanAdmin</sys_updated_by>
+            <sys_updated_on>2018-07-23 22:33:40</sys_updated_on>
+            <value>Family Leave</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>FMLA Leave With Pay</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2017-09-21 20:20:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-06-30 20:40:43</sys_updated_on>
+            <value>FMLA Leave With Pay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>FMLA Leave Without Pay</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2017-09-21 20:20:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-06-30 20:40:47</sys_updated_on>
+            <value>FMLA Leave Without Pay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Government Public Service</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2018-07-20 23:26:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BryanAdmin</sys_updated_by>
+            <sys_updated_on>2018-07-20 23:26:29</sys_updated_on>
+            <value>Government Public Service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Leave in Lieu of Sabbatical</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2017-09-21 20:20:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BryanAdmin</sys_updated_by>
+            <sys_updated_on>2017-09-21 20:20:38</sys_updated_on>
+            <value>Leave in Lieu of Sabbatical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Leave of Absence With Pay</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2017-09-21 20:20:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 21:42:47</sys_updated_on>
+            <value>Leave of Absence With Pay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Leave of Absence Without Pay</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2017-09-21 20:20:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-07 21:42:50</sys_updated_on>
+            <value>Leave of Absence Without Pay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parental Bonding</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2018-07-20 23:26:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BryanAdmin</sys_updated_by>
+            <sys_updated_on>2018-07-20 23:26:48</sys_updated_on>
+            <value>Parental Bonding</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Personal</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2018-07-20 23:26:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BryanAdmin</sys_updated_by>
+            <sys_updated_on>2018-07-20 23:26:54</sys_updated_on>
+            <value>Personal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Professional Development</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2018-07-20 23:27:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BryanAdmin</sys_updated_by>
+            <sys_updated_on>2018-07-20 23:27:00</sys_updated_on>
+            <value>Professional Development</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sabbatical Leave</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2017-09-21 20:20:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BryanAdmin</sys_updated_by>
+            <sys_updated_on>2017-09-21 20:20:38</sys_updated_on>
+            <value>Sabbatical Leave</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Special Research</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2018-07-20 23:27:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BryanAdmin</sys_updated_by>
+            <sys_updated_on>2018-07-20 23:27:12</sys_updated_on>
+            <value>Special Research</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_leave_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>u_air_leave</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>BryanAdmin</sys_created_by>
+            <sys_created_on>2017-09-21 20:20:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>hfiedler</sys_updated_by>
+            <sys_updated_on>2023-07-13 16:53:30</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</claim_owner_scope>
+        <claim_timestamp>18fdfd666e70000001</claim_timestamp>
+        <metadata_update_name>sys_choice_u_air_leave_u_leave_type</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>ARC NOVA Leaves</previous_claim_name>
+        <previous_claim_scope>4dfa248787b58a500548ca68cebb355b</previous_claim_scope>
+        <sys_created_by>tmbuchanan</sys_created_by>
+        <sys_created_on>2024-06-03 20:42:01</sys_created_on>
+        <sys_id>48bd78421b2a8e103b2aececbc4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-06-03 20:42:01</sys_updated_on>
+    </sys_claim>
+</record_update>

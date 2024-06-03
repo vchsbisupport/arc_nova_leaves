@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_credit_balance</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>BryanAdmin</sys_created_by>
+        <sys_created_on>2018-07-23 22:32:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3a699624db67df403ee7f9261d961998</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_credit_balance</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3a699624db67df403ee7f9261d961998</sys_update_name>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-06-03 20:42:00</sys_updated_on>
+        <table>u_air_leave</table>
+        <ui_policy display_value="Sabbatical">33495624db67df403ee7f9261d961924</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</claim_owner_scope>
+        <claim_timestamp>18fdfd662540000001</claim_timestamp>
+        <metadata_update_name>sys_ui_policy_action_3a699624db67df403ee7f9261d961998</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>ARC NOVA Leaves</previous_claim_name>
+        <previous_claim_scope>4dfa248787b58a500548ca68cebb355b</previous_claim_scope>
+        <sys_created_by>tmbuchanan</sys_created_by>
+        <sys_created_on>2024-06-03 20:42:00</sys_created_on>
+        <sys_id>bbad38421b2a8e103b2aececbc4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-06-03 20:42:00</sys_updated_on>
+    </sys_claim>
+</record_update>

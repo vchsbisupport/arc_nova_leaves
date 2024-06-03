@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8585084837450300679fdaa543990e0c" label="AIR Leaves" max_length="40" name="u_air_leave" type="collection">
+        <element label="OPIS Leave ID" max_length="40" name="u_academic_leave_id" type="integer"/>
+        <element display="true" label="AIR Profile" max_length="32" name="u_air_ref" reference="u_air_emp" type="reference"/>
+        <element label="Balance Remaining" max_length="40" name="u_bal_remain" type="integer"/>
+        <element label="Beginning Virtual Credit Balance" max_length="40" name="u_credit_balance" type="integer"/>
+        <element label="Credits Used" max_length="40" name="u_credit_used" type="integer"/>
+        <element label="Deferred Review" max_length="40" name="u_deferred" type="boolean"/>
+        <element label="Employee UCSD ID" max_length="40" name="u_employee_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PFCB" max_length="40" name="u_full_salary" type="boolean"/>
+        <element label="End" max_length="40" name="u_leave_end" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Leave Without Pay" max_length="40" name="u_leave_no_pay" type="boolean"/>
+        <element label="Start" max_length="40" name="u_leave_start" type="glide_date"/>
+        <element choice="1" label="Leave Type" max_length="60" name="u_leave_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Active Service-Modified Duties (ASMD)" value="Active Service-Modified Duties (ASMD)"/>
+                <element inactive_on_update="false" label="Administrative" value="Administrative"/>
+                <element inactive="true" inactive_on_update="true" label="Child Bearing &amp; Parental Leave" value="Child Bearing &amp; Parental Leave"/>
+                <element inactive="true" inactive_on_update="true" label="Childbearing Leave" value="Childbearing Leave"/>
+                <element inactive_on_update="false" label="Childbearing – Pregnancy Disability" value="Childbearing – Pregnancy Disability"/>
+                <element inactive_on_update="false" label="Extended Illness" value="Extended Illness"/>
+                <element inactive_on_update="false" label="Family Leave" value="Family Leave"/>
+                <element inactive="true" inactive_on_update="true" label="FMLA Leave With Pay" value="FMLA Leave With Pay"/>
+                <element inactive="true" inactive_on_update="true" label="FMLA Leave Without Pay" value="FMLA Leave Without Pay"/>
+                <element inactive_on_update="false" label="Government Public Service" value="Government Public Service"/>
+                <element inactive_on_update="false" label="Leave in Lieu of Sabbatical" value="Leave in Lieu of Sabbatical"/>
+                <element inactive="true" inactive_on_update="true" label="Leave of Absence With Pay" value="Leave of Absence With Pay"/>
+                <element inactive="true" inactive_on_update="true" label="Leave of Absence Without Pay" value="Leave of Absence Without Pay"/>
+                <element inactive_on_update="false" label="Parental Bonding" value="Parental Bonding"/>
+                <element inactive_on_update="false" label="Personal" value="Personal"/>
+                <element inactive_on_update="false" label="Professional Development" value="Professional Development"/>
+                <element inactive_on_update="false" label="Sabbatical Leave" value="Sabbatical Leave"/>
+                <element inactive_on_update="false" label="Special Research" value="Special Research"/>
+                <element inactive="true" inactive_on_update="true" label="Other" sequence="1" value="Other"/>
+            </choice>
+        </element>
+        <element label="LOA Begin Date" max_length="40" name="u_loa_begin_date" type="glide_date"/>
+        <element label="LOA End Date" max_length="40" name="u_loa_end_date" type="glide_date"/>
+        <element label="Notes" max_length="500" name="u_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vacation" max_length="40" name="u_no_salary" type="boolean"/>
+        <element label="Leave Type - Other" max_length="240" name="u_other_desc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Department Paid Leave" max_length="40" name="u_par_salary" type="boolean"/>
+        <element active="false" label="Leave Pay End" max_length="40" name="u_pay_end" type="glide_date"/>
+        <element active="false" label="Leave Pay Start" max_length="40" name="u_pay_start" type="glide_date"/>
+        <element choice="1" label="FMLA?" max_length="40" name="u_pay_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" value="No"/>
+                <element inactive_on_update="false" label="Yes" value="Yes"/>
+            </choice>
+        </element>
+        <element label="Percent Time" max_length="40" name="u_per_time" type="integer"/>
+        <element label="Probation Extended" max_length="40" name="u_probation_ext" type="boolean"/>
+        <element choice="1" label="Sabbatical Type" max_length="40" name="u_sab_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="In Residence" value="In Residence"/>
+                <element inactive_on_update="false" label="Regular" value="Regular"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_air_ref"/>
+        </index>
+    </element>
+</database>
