@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Leave of Absence Submission">bc7de04b87b58a500548ca68cebb35ca</catalog_item>
+        <catalog_variable>IO:a017ec461ba68e103b2aececbc4bcbaa</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>tmbuchanan</sys_created_by>
+        <sys_created_on>2024-06-03 19:06:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7fe7ac861ba68e103b2aececbc4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_family_member_type</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7fe7ac861ba68e103b2aececbc4bcb7a</sys_update_name>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-06-03 19:06:58</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'u_family_member_type' mandatory &amp; visible depending on 'u_leave_type', 'u_military_leave_type' &amp; 'undefined'">5a87e4861ba68e103b2aececbc4bcbfc</ui_policy>
+        <variable>u_family_member_type</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

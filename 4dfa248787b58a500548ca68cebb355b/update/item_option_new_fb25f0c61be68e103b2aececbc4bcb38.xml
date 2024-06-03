@@ -30,24 +30,24 @@
         <instructions/>
         <layout>normal</layout>
         <list_table/>
-        <lookup_label/>
+        <lookup_label>u_emp_type</lookup_label>
         <lookup_price/>
-        <lookup_table/>
+        <lookup_table>sys_user</lookup_table>
         <lookup_unique>false</lookup_unique>
-        <lookup_value/>
+        <lookup_value>u_emp_type</lookup_value>
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>col_leave_info</name>
-        <order>2200</order>
+        <name>u_emp_type</name>
+        <order>4700</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>2 Col Leave Info</question_text>
+        <question_text>Employee Type</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -75,21 +75,21 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>tmbuchanan</sys_created_by>
-        <sys_created_on>2024-06-03 16:02:29</sys_created_on>
+        <sys_created_on>2024-06-03 20:08:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>5dbd3b311be28e103b2aececbc4bcb6a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>2 Col Leave Info</sys_name>
+        <sys_id>fb25f0c61be68e103b2aececbc4bcb38</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Employee Type</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
-        <sys_update_name>item_option_new_5dbd3b311be28e103b2aececbc4bcb6a</sys_update_name>
+        <sys_update_name>item_option_new_fb25f0c61be68e103b2aececbc4bcb38</sys_update_name>
         <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-03 19:57:53</sys_updated_on>
+        <sys_updated_on>2024-06-03 20:09:18</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>19</type>
+        <type>18</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -105,22 +105,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=5dbd3b311be28e103b2aececbc4bcb6a"/>
-    <fx_price action="delete_multiple" query="id=5dbd3b311be28e103b2aececbc4bcb6a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=fb25f0c61be68e103b2aececbc4bcb38"/>
+    <fx_price action="delete_multiple" query="id=fb25f0c61be68e103b2aececbc4bcb38"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>5dbd3b311be28e103b2aececbc4bcb6a</id>
+        <id>fb25f0c61be68e103b2aececbc4bcb38</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>tmbuchanan</sys_created_by>
-        <sys_created_on>2024-06-03 16:02:29</sys_created_on>
-        <sys_id>edbd77b11be28e103b2aececbc4bcbcb</sys_id>
+        <sys_created_on>2024-06-03 20:08:29</sys_created_on>
+        <sys_id>c506700a1be68e103b2aececbc4bcbbf</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-03 16:02:29</sys_updated_on>
+        <sys_updated_on>2024-06-03 20:08:29</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -128,16 +128,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>5dbd3b311be28e103b2aececbc4bcb6a</id>
+        <id>fb25f0c61be68e103b2aececbc4bcb38</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>tmbuchanan</sys_created_by>
-        <sys_created_on>2024-06-03 16:02:29</sys_created_on>
-        <sys_id>ddbd77b11be28e103b2aececbc4bcbca</sys_id>
+        <sys_created_on>2024-06-03 20:08:29</sys_created_on>
+        <sys_id>8906700a1be68e103b2aececbc4bcbbe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-03 16:02:29</sys_updated_on>
+        <sys_updated_on>2024-06-03 20:08:29</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

@@ -30,7 +30,7 @@
 <div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Within 90 days of your return, you will need to provide a detailed report of the results of your sabbatical leave. Please see APM 740-97 for guidelines.</span></div>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow/>
+        <flow_designer_flow display_value="ARC NOVA Leaves">c87eac4b87b58a500548ca68cebb35e0</flow_designer_flow>
         <fulfillment_automation_level>manual</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -81,7 +81,7 @@
         <sys_created_on>2024-04-30 15:21:23</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bc7de04b87b58a500548ca68cebb35ca</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>Leave of Absence Submission</sys_name>
         <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
         <sys_policy/>
@@ -89,14 +89,14 @@
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name>sc_cat_item_bc7de04b87b58a500548ca68cebb35ca</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-05-15 22:45:51</sys_updated_on>
+        <sys_updated_on>2024-06-03 20:39:17</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>false</use_sc_layout>
         <vendor/>
-        <version>48</version>
+        <version>59</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

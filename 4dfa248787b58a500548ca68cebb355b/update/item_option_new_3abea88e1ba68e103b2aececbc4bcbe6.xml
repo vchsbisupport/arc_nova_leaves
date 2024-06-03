@@ -27,7 +27,7 @@
         <help_text/>
         <hidden>false</hidden>
         <include_none>false</include_none>
-        <instructions/>
+        <instructions><![CDATA[<p>When using multiple types of leave (sick, personal) - please offer a brief breakdown such as "DD/MM/YY-DD/MM/YY - sick leave during wait period. DD/MM/YY-DD/MM/YY - leave without pay while on disability".</p>]]></instructions>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
@@ -41,13 +41,13 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>col_leave_info</name>
-        <order>2200</order>
+        <name>u_leave_breakdown</name>
+        <order>3700</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>2 Col Leave Info</question_text>
+        <question_text>Breakdown of Leave (optional)</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -56,8 +56,8 @@
         <record/>
         <record_producer_table/>
         <reference/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>undefined</reference_qual>
+        <reference_qual_condition>undefined</reference_qual_condition>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated 
@@ -69,27 +69,27 @@
  */]]></save_script>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>false</show_help>
+        <show_help>true</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>tmbuchanan</sys_created_by>
-        <sys_created_on>2024-06-03 16:02:29</sys_created_on>
+        <sys_created_on>2024-06-03 19:37:32</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>5dbd3b311be28e103b2aececbc4bcb6a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>2 Col Leave Info</sys_name>
+        <sys_id>3abea88e1ba68e103b2aececbc4bcbe6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Breakdown of Leave (optional)</sys_name>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
-        <sys_update_name>item_option_new_5dbd3b311be28e103b2aececbc4bcb6a</sys_update_name>
+        <sys_update_name>item_option_new_3abea88e1ba68e103b2aececbc4bcbe6</sys_update_name>
         <sys_updated_by>tmbuchanan</sys_updated_by>
         <sys_updated_on>2024-06-03 19:57:53</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>19</type>
+        <type>2</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -105,22 +105,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=5dbd3b311be28e103b2aececbc4bcb6a"/>
-    <fx_price action="delete_multiple" query="id=5dbd3b311be28e103b2aececbc4bcb6a"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=3abea88e1ba68e103b2aececbc4bcbe6"/>
+    <fx_price action="delete_multiple" query="id=3abea88e1ba68e103b2aececbc4bcbe6"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>5dbd3b311be28e103b2aececbc4bcb6a</id>
+        <id>3abea88e1ba68e103b2aececbc4bcbe6</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>tmbuchanan</sys_created_by>
-        <sys_created_on>2024-06-03 16:02:29</sys_created_on>
-        <sys_id>edbd77b11be28e103b2aececbc4bcbcb</sys_id>
+        <sys_created_on>2024-06-03 19:37:32</sys_created_on>
+        <sys_id>27eeac8e1ba68e103b2aececbc4bcb6d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-03 16:02:29</sys_updated_on>
+        <sys_updated_on>2024-06-03 19:37:32</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -128,16 +128,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>5dbd3b311be28e103b2aececbc4bcb6a</id>
+        <id>3abea88e1ba68e103b2aececbc4bcbe6</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>tmbuchanan</sys_created_by>
-        <sys_created_on>2024-06-03 16:02:29</sys_created_on>
-        <sys_id>ddbd77b11be28e103b2aececbc4bcbca</sys_id>
+        <sys_created_on>2024-06-03 19:37:32</sys_created_on>
+        <sys_id>e7eeac8e1ba68e103b2aececbc4bcb6c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-03 16:02:29</sys_updated_on>
+        <sys_updated_on>2024-06-03 19:37:32</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

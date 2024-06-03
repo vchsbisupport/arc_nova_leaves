@@ -8,63 +8,44 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Leave of Absence Submission">bc7de04b87b58a500548ca68cebb35ca</cat_item>
-        <cat_variable>IO:484bc3351b46c6103b2aececbc4bcb38</cat_variable>
+        <cat_variable>IO:e4cfacce1ba68e103b2aececbc4bcb2b</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Employee Change</name>
+        <name>Outside Activity Change</name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-    if (isLoading || newValue == '') {
+    if (isLoading) {
         return;
     }
 
-    //Return Appointment Percentage
-    var ga = new GlideAjax('novaLeavesHelper');
-    ga.addParam('sysparm_name', 'retAppPct');
-    ga.addParam('sysparm_emp_sid', newValue);
-    ga.getXMLAnswer(function(response) {
-        g_form.setValue('u_app_pct_derived', response);
-    });
+    //Type appropriate comment here, and begin script below
+    g_form.hideFieldMsg('u_receiving_outside_money');
+    if (newValue == 'Yes') {
+		g_form.showFieldMsg('u_receiving_outside_money','Please note that earnings and hours thresholds may apply. Please see the APM 671 FAQ document in the description above.','error');
+    }
 
-	//Set leave type choices.
-	var gb = new GlideAjax('novaLeavesHelper');
-	ga.addParam('sysparm_name','hasFacultyAppt');
-	ga.addParam('sysparm_emp_sid',newValue);
-	ga.getXMLAnswer(function(response) {
-		g_form.removeOption('u_leave_type','Sabbatical')
-		if (response == true) {
-			g_form.addOption('u_leave_type','Sabbatical','Sabbatical',1000);
-		}
-	});
-
-	var gc = new GlideAjax('novaLeavesHelper');
-	gc.addParam('sysparm_name','getEmpType');
-	gc.addParam('sysparm_emp_sid',newValue);
-	gc.getXMLAnswer(function(response) {
-		g_form.setValue('u_emp_type',response);
-	});
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>tmbuchanan</sys_created_by>
-        <sys_created_on>2024-05-15 21:54:19</sys_created_on>
+        <sys_created_on>2024-06-03 20:39:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>1e175377870ace100548ca68cebb3542</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Employee Change</sys_name>
+        <sys_id>0c1d70021b2a8e103b2aececbc4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Outside Activity Change</sys_name>
         <sys_overrides/>
         <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
-        <sys_update_name>catalog_script_client_1e175377870ace100548ca68cebb3542</sys_update_name>
+        <sys_update_name>catalog_script_client_0c1d70021b2a8e103b2aececbc4bcb8b</sys_update_name>
         <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-03 20:16:09</sys_updated_on>
+        <sys_updated_on>2024-06-03 20:39:17</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
