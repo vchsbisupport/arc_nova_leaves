@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id display_value="NOVA Leaves User" name="NOVA Leaves User">661db507872b0290e4cdba2c8bbb35aa</group_id>
+        <report_id display_value="NOVA Leaves RTW in 30 days">92abe6b01bc8de103b2aececbc4bcb21</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>joh014</sys_created_by>
+        <sys_created_on>2024-08-14 15:22:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e317ee051b8c12503b2aececbc4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>92abe6b01bc8de103b2aececbc4bcb21</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>sys_report_users_groups_e317ee051b8c12503b2aececbc4bcb9b</sys_update_name>
+        <sys_updated_by>joh014</sys_updated_by>
+        <sys_updated_on>2024-08-14 15:22:54</sys_updated_on>
+        <user_id/>
+    </sys_report_users_groups>
+</record_update>
