@@ -9,52 +9,135 @@
         <name>novaLeavesHelper</name>
         <script><![CDATA[var novaLeavesHelper = Class.create();
 novaLeavesHelper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
-	retAppPct: function() {
-		var emp = this.getParameter('sysparm_emp_sid');
+    retAppPct: function() {
+        var emp = this.getParameter('sysparm_emp_sid');
 
-		var usr = new GlideRecord('sys_user');
-		usr.get(emp);
+        var usr = new GlideRecord('sys_user');
+        usr.get(emp);
 
-		var appPct = 0;
+        var appPct = 0;
 
-		var job = new GlideRecord('u_uc_path_jobs');
-		job.addEncodedQuery('u_empl_statusINA,L,P,W^u_employee_number='+usr.employee_number.toString());
-		job.query();
+        var job = new GlideRecord('u_uc_path_jobs');
+        job.addEncodedQuery('u_empl_statusINA,L,P,W^u_employee_number=' + usr.employee_number.toString());
+        job.query();
 
-		while (job.next()) {
-			appPct += parseFloat(job.u_fte.toString()) * 100;
-		}
+        while (job.next()) {
+            appPct += parseFloat(job.u_fte.toString()) * 100;
+        }
 
-		return appPct;
-	},
+        return appPct;
+    },
 
-	hasFacultyAppt: function() {
-		var emp = this.getParameter('sysparm_emp_sid');
+    hasFacultyAppt: function() {
+        var emp = this.getParameter('sysparm_emp_sid');
 
-		var usr = new GlideRecord('sys_user');
-		usr.get(emp);
+        var usr = new GlideRecord('sys_user');
+        usr.get(emp);
 
-		var hasFac = false;
+        var hasFac = false;
 
-		var job = new GlideRecord('u_uc_path_jobs');
-		job.addEncodedQuery('u_empl_class=9^u_empl_statusINA,L,P,W^u_employee_number='+usr.employee_number.toString());
-		job.query();
+        var job = new GlideRecord('u_uc_path_jobs');
+        job.addEncodedQuery('u_empl_class=9^u_empl_statusINA,L,P,W^u_employee_number=' + usr.employee_number.toString());
+        job.query();
 
-		if (job.next()) {
-			hasFac = true;
-		}
+        if (job.next()) {
+            hasFac = true;
+        }
 
-		return hasFac;
-	},
+        return hasFac;
+    },
 
-	getEmpType: function() {
-		var emp = this.getParameter('sysparm_emp_sid');
+    getEmpType: function() {
+        var emp = this.getParameter('sysparm_emp_sid');
 
-		var usr = new GlideRecord('sys_user');
-		usr.get(emp);
+        var usr = new GlideRecord('sys_user');
+        usr.get(emp);
 
-		return usr.u_emp_type.toString();
-	},
+        return usr.u_emp_type.toString();
+    },
+
+    mailScripts: {
+
+        retEffDate: function() {
+			var curr;
+			if (current.sys_class_name == 'sc_req_item') {
+                curr = current;
+            } else if (current.sys_class_name == 'sc_task') {
+                curr = current.request_item;
+            } else {
+                return ' ';
+            }
+
+            var effDt = curr.variables.u_leave_start.toString();
+            var effDtArr = [];
+            effDtArr = effDt.split('-');
+            return effDtArr[1] + '/' + effDtArr[2] + '/' + effDtArr[0];
+            //return curr.variables.u_leave_start;
+        },
+
+		retEndDate: function() {
+			var curr;
+			if (current.sys_class_name == 'sc_req_item') {
+                curr = current;
+            } else if (current.sys_class_name == 'sc_task') {
+                curr = current.request_item;
+            } else {
+                return ' ';
+            }
+
+            var endDt = curr.variables.u_leave_end.toString();
+            var endDtArr = [];
+            endDtArr = endDt.split('-');
+            return endDtArr[1] + '/' + endDtArr[2] + '/' + endDtArr[0];
+            
+        },
+
+        retLeaveType: function() {
+			var curr;
+			if (current.sys_class_name == 'sc_req_item') {
+                curr = current;
+            } else if (current.sys_class_name == 'sc_task') {
+                curr = current.request_item;
+            } else {
+                return ' ';
+            }
+            return curr.variables.u_leave_type;
+        },
+
+        isUrgent: function() {
+            var effDt = current.variables.u_leave_start.toString();
+            var effDtArr = effDt.split('-');
+            var effDtTime = new GlideDateTime();
+            effDtTime.setValue(effDt);
+
+			var td = new GlideDateTime();
+
+            //If Leave effective date is prior to the date of submission
+            if (effDtTime < td)
+                return 'true';
+            
+            //If Leave effective date is within the current month
+            if (effDtArr[0] == effDtTime.getYearLocalTime() && effDtArr[1] == effDtTime.getMonthLocalTime())
+                return 'true';
+
+            //Submitted less than 4 weeks prior to Leave effective date between 1st and 14th of the month 
+            td.addWeeksLocalTime(4);
+            //gs.info('Leave start: ' + effDtTime.getYearLocalTime() + '-' + effDtTime.getMonthLocalTime() + '-' + effDtTime.getDayOfMonthLocalTime());
+            //gs.info('Four weeks ahead: ' + td.getYearLocalTime() + '-' + td.getMonthLocalTime() + '-' + td.getDayOfMonthLocalTime());
+            if (td > effDtTime && effDtTime.getDayOfMonthLocalTime() < 15)
+                return 'true';
+
+            //Submitted less than 6 weeks prior to Leave effective date between 15th and 31st 
+			td.addWeeksLocalTime(2);
+			//gs.info('Six weeks ahead: ' + td.getYearLocalTime() + '-' + td.getMonthLocalTime() + '-' + td.getDayOfMonthLocalTime());
+            if (td > effDtTime && effDtTime.getDayOfMonthLocalTime() >= 15)
+                return 'true';
+
+            //gs.info('returned false');
+
+            return 'false';
+        }
+    },
 
     type: 'novaLeavesHelper'
 });]]></script>
@@ -63,14 +146,14 @@ novaLeavesHelper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_created_on>2024-05-15 21:45:16</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>adc49bb3870ace100548ca68cebb358b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>novaLeavesHelper</sys_name>
         <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name>sys_script_include_adc49bb3870ace100548ca68cebb358b</sys_update_name>
-        <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-03 20:16:03</sys_updated_on>
+        <sys_updated_by>joh014</sys_updated_by>
+        <sys_updated_on>2024-07-19 20:54:48</sys_updated_on>
     </sys_script_include>
 </record_update>

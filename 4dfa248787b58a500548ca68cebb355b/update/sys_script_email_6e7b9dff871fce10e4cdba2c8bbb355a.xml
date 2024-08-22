@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>set_leave_subject_assign</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+
+    // Add your code here
+	var sub = '';
+	var effDt = new novaLeavesHelper().mailScripts.retEffDate();
+	var isUrgent = new novaLeavesHelper().mailScripts.isUrgent();
+	if (isUrgent == 'true') {
+		sub += 'Urgent ';
+	}
+	sub += 'Action Required: New ARC Request Created - ' + current.u_air_emp.u_last_name + ', ' + current.u_air_emp.u_first_name + ' - ' + current.u_air_emp.u_home_department.name;
+	if (current.u_air_emp.u_division != '') 
+		sub += ' (' + current.u_air_emp.u_division.u_division + ')';
+	sub += ' - Leave - ' + effDt + ' - ' + current.number;
+    email.setSubject(sub);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>joh014</sys_created_by>
+        <sys_created_on>2024-07-16 16:12:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6e7b9dff871fce10e4cdba2c8bbb355a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>set_leave_subject_assign</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>sys_script_email_6e7b9dff871fce10e4cdba2c8bbb355a</sys_update_name>
+        <sys_updated_by>joh014</sys_updated_by>
+        <sys_updated_on>2024-07-16 21:21:18</sys_updated_on>
+    </sys_script_email>
+</record_update>

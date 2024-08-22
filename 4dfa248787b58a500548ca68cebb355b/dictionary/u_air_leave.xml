@@ -50,6 +50,7 @@
         </element>
         <element label="Percent Time" max_length="40" name="u_per_time" type="integer"/>
         <element label="Probation Extended" max_length="40" name="u_probation_ext" type="boolean"/>
+        <element label="RTW Date" max_length="10" name="u_rtw_date" type="glide_date"/>
         <element choice="1" label="Sabbatical Type" max_length="40" name="u_sab_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="In Residence" value="In Residence"/>

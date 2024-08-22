@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>set_leave_body</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+
+    // Add your code here
+	var isUrgent = new novaLeavesHelper().mailScripts.isUrgent();
+	if (isUrgent == 'true') {
+		template.print('Please note that this request is marked "Urgent" due to the submission date and should be addressed immediately.');
+	}
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>joh014</sys_created_by>
+        <sys_created_on>2024-07-16 21:25:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9ff3aa7787530250e4cdba2c8bbb355b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>set_leave_body</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>sys_script_email_9ff3aa7787530250e4cdba2c8bbb355b</sys_update_name>
+        <sys_updated_by>joh014</sys_updated_by>
+        <sys_updated_on>2024-07-16 21:26:35</sys_updated_on>
+    </sys_script_email>
+</record_update>
