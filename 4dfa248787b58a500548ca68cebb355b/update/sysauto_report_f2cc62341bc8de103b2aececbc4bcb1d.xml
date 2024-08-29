@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <max_drift/>
+        <name>NOVA Leave RTW 30 days</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <omit_if_no_records>true</omit_if_no_records>
+        <output_type>PDF-landscape</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="NOVA Leaves RTW in 30 days">92abe6b01bc8de103b2aececbc4bcb21</report>
+        <report_body><![CDATA[<p>Hello,</p>
+<p>Attached is a report on the leaves return to work due in 30 days.</p>
+<p>&nbsp;</p>]]></report_body>
+        <report_title>Report on leaves return to work due in 30 days</report_title>
+        <run_as display_value="Joy Hu">4c94b46d1b76a850eb288622dd4bcb3c</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-15 00:00:00</run_period>
+        <run_start>2024-08-19 15:00:00</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>periodically</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>joh014</sys_created_by>
+        <sys_created_on>2024-08-13 21:12:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f2cc62341bc8de103b2aececbc4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOVA Leave RTW 30 days</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>sysauto_report_f2cc62341bc8de103b2aececbc4bcb1d</sys_update_name>
+        <sys_updated_by>joh014</sys_updated_by>
+        <sys_updated_on>2024-08-13 21:12:07</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>2825709e1bcbd910b99b8664604bcb14,5e81d12f6f82850023bd5965bd3ee48b</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>
