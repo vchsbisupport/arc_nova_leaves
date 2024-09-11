@@ -33,11 +33,14 @@
 
 	//Set leave type choices.
 	var gb = new GlideAjax('novaLeavesHelper');
-	ga.addParam('sysparm_name','hasFacultyAppt');
-	ga.addParam('sysparm_emp_sid',newValue);
-	ga.getXMLAnswer(function(response) {
-		g_form.removeOption('u_leave_type','Sabbatical')
-		if (response == true) {
+	gb.addParam('sysparm_name','hasFacultyAppt');
+	gb.addParam('sysparm_emp_sid',newValue);
+	gb.getXMLAnswer(function(response) {
+		//alert(response);
+		g_form.removeOption('u_leave_type','Sabbatical');
+		//if (response == true || response == 'true') {
+			if (response == 'true') {
+			//alert(response);
 			g_form.addOption('u_leave_type','Sabbatical','Sabbatical',1000);
 		}
 	});
@@ -55,7 +58,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>1e175377870ace100548ca68cebb3542</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Employee Change</sys_name>
         <sys_overrides/>
         <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
@@ -63,8 +66,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name>catalog_script_client_1e175377870ace100548ca68cebb3542</sys_update_name>
-        <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-03 20:16:09</sys_updated_on>
+        <sys_updated_by>joh014</sys_updated_by>
+        <sys_updated_on>2024-09-11 18:32:03</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
