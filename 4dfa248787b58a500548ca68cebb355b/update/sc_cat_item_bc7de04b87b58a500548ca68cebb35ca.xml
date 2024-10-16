@@ -4,30 +4,16 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Leave of Absence">04bd284b87b58a500548ca68cebb3557</category>
+        <category display_value="Leave of Absences">04bd284b87b58a500548ca68cebb3557</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">This form is for requesting a Leave of Absence for Academic Employees and Faculty, only.</span></div>
-<div>&nbsp;</div>
-<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Leave requests for Staff/Career employees should be submitted to Health Human Resources using the HHR Portal.</span></div>
-<div>&nbsp;</div>
-<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Sabbatical Leave Information</span></div>
-<div>&nbsp;</div>
-<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">When submitting a request for a sabbatical leave, please review the following information:</span></div>
-<div>&nbsp;</div>
-<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Sabbatical Leaves are only available to anyone who holds a Ladder-rank appointment.</span></div>
-<div>&nbsp;</div>
-<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Anyone holding an In Residence, Clinical X, or Acting Professor appointment may be eligible for Leave in Lieu of Sabbatical - please select the appropriate leave type.</span></div>
-<div>&nbsp;</div>
-<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">If your leave involves working at an organization other than UC San Diego, you will need to contact UCOats and COI. We will request confirmation that you have contacted UCOats and COI before submitting your leave request if not provided beforehand.</span></div>
-<div>&nbsp;</div>
-<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">More information about policy surrounding outside activity can be found in APM 671.</span></div>
-<div>&nbsp;</div>
-<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Within 90 days of your return, you will need to provide a detailed report of the results of your sabbatical leave. Please see APM 740-97 for guidelines.</span></div>]]></description>
+        <description><![CDATA[<p><em><span style="font-size: 14pt; font-family: georgia, palatino;"><span xml:lang="EN-US" data-contrast="auto">This form is for requesting a Leave of Absence for Academic Employees and Faculty, only.</span>&nbsp; </span></em></p>
+<p><em><span style="font-size: 14pt; font-family: georgia, palatino;">Leave requests for Staff/Career employees (including MSP Staff Physicians and PA's) should be submitted to Health Human Resources using the&nbsp;<a title="HHR Portal" href="https://uchealth.service-now.com/hrportal?id=hri_sc_cat_item&amp;sys_id=0b4bf6ce0f07f2402c460bcce1050ed7">HHR Portal</a>.</span></em></p>
+<p><em><span style="font-size: 14pt; font-family: georgia, palatino;"><span xml:lang="EN-US" data-contrast="auto">If your leave involves working at an organization other than UC San Diego, you will need to contact the Outside Professional Activity Group Administrator (HS-UCOATS@health.ucsd.edu) and COI (info-coi@ucsd.edu). We will request confirmation that you have disclosed the outside activity in UC OATS, Research COI, and potentially HS Clinical COI before submitting your leave request.</span>&nbsp; </span></em></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow display_value="ARC NOVA Leaves">c87eac4b87b58a500548ca68cebb35e0</flow_designer_flow>
@@ -81,7 +67,7 @@
         <sys_created_on>2024-04-30 15:21:23</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bc7de04b87b58a500548ca68cebb35ca</sys_id>
-        <sys_mod_count>69</sys_mod_count>
+        <sys_mod_count>83</sys_mod_count>
         <sys_name>Leave of Absence Submission</sys_name>
         <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
         <sys_policy/>
@@ -89,14 +75,14 @@
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name>sc_cat_item_bc7de04b87b58a500548ca68cebb35ca</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-09-11 18:32:03</sys_updated_on>
+        <sys_updated_on>2024-10-07 20:37:26</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>false</use_sc_layout>
         <vendor/>
-        <version>68</version>
+        <version>82</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

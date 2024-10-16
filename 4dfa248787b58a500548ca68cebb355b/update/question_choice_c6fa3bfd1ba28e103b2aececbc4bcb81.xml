@@ -3,7 +3,7 @@
         <inactive>false</inactive>
         <order>200</order>
         <published_ref/>
-        <question display_value="Have you informed your Department Administrator about your upcoming leave? We would like to include them on future communications but want to make sure that you were able to relay the news yourself first.">9e7a33fd1ba28e103b2aececbc4bcb0e</question>
+        <question display_value="Department Informed?">9e7a33fd1ba28e103b2aececbc4bcb0e</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>tmbuchanan</sys_created_by>
         <sys_created_on>2024-06-03 15:50:31</sys_created_on>

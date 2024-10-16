@@ -8,7 +8,7 @@
         <choice_field/>
         <choice_table/>
         <create_roles/>
-        <default_html_value/>
+        <default_html_value><![CDATA[<p style="text-align: left;"><strong><span style="font-family: georgia, palatino; font-size: 12pt;">Have you informed your Department Administrator about your upcoming leave? We have to reach out to obtain compensation details and share leave plans with them. So please be mindful they will become aware that a leave was filed.  </span></strong></p>]]></default_html_value>
         <default_value/>
         <delete_roles/>
         <delivery_plan/>
@@ -42,12 +42,12 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>u_dept_informed</name>
-        <order>1200</order>
+        <order>1300</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Have you informed your Department Administrator about your upcoming leave? We would like to include them on future communications but want to make sure that you were able to relay the news yourself first.</question_text>
+        <question_text>Department Informed?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -56,9 +56,10 @@
         <record/>
         <record_producer_table/>
         <reference/>
-        <reference_qual>undefined</reference_qual>
-        <reference_qual_condition>undefined</reference_qual_condition>
-        <rich_text/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text><![CDATA[<p>&nbsp;</p>
+<p style="text-align: left;"><span style="background-color: #f1c40f;"><strong><span style="font-family: georgia, palatino; font-size: 12pt; background-color: #f1c40f;">Have you informed your Department Administrator about your upcoming leave? We have to reach out to obtain compensation details and share leave plans with them. So please be mindful they will become aware that a leave was filed. &nbsp;</span></strong></span></p>]]></rich_text>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated 
  * `current`- GlideRecord produced by Record Producer
@@ -78,18 +79,18 @@
         <sys_created_on>2024-06-03 15:50:30</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9e7a33fd1ba28e103b2aececbc4bcb0e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Have you informed your Department Administrator about your upcoming leave? We would like to include them on future communications but want to make sure that you were able to relay the news yourself first.</sys_name>
-        <sys_package/>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Department Informed?</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name>item_option_new_9e7a33fd1ba28e103b2aececbc4bcb0e</sys_update_name>
         <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-03 17:15:48</sys_updated_on>
+        <sys_updated_on>2024-10-07 20:04:45</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>5</type>
+        <type>32</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

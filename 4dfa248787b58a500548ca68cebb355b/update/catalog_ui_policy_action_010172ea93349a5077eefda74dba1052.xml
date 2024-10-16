@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Leave of Absence Submission">bc7de04b87b58a500548ca68cebb35ca</catalog_item>
+        <catalog_variable>IO:87c0baaa93349a5077eefda74dba1032</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>tmbuchanan</sys_created_by>
+        <sys_created_on>2024-09-25 14:44:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>010172ea93349a5077eefda74dba1052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_other_leave_reason</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_010172ea93349a5077eefda74dba1052</sys_update_name>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-09-25 14:44:08</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'u_other_leave_reason' mandatory &amp; visible depending on 'u_leave_type'">70f07eaa93349a5077eefda74dba10bb</ui_policy>
+        <variable>u_other_leave_reason</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

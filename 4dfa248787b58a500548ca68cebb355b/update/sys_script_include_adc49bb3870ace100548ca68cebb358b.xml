@@ -56,6 +56,27 @@ novaLeavesHelper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         return usr.u_emp_type.toString();
     },
 
+	retLeaveDates: function() {
+		var ritm = this.getParameter('sysparm_nova_ritm');
+
+		var ret = null;
+
+		var gr = new GlideRecord('u_air_leave');
+		gr.addEncodedQuery('u_created_from_task='+ritm);
+		gr.query();
+
+		if (gr.next()) {
+			ret = {
+				"sd":gr.u_loa_begin_date.toString(),
+				"ed":gr.u_loa_end_date.toString()
+			};
+			ret = JSON.stringify(ret);
+		}
+
+		gs.log('retLeaveDates returning '+ret+' using parameter '+ritm);
+		return ret;
+	},
+
     mailScripts: {
 
         retEffDate: function() {
@@ -146,14 +167,14 @@ novaLeavesHelper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_created_on>2024-05-15 21:45:16</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>adc49bb3870ace100548ca68cebb358b</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_name>novaLeavesHelper</sys_name>
         <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name>sys_script_include_adc49bb3870ace100548ca68cebb358b</sys_update_name>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-07-19 20:54:48</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-03 18:47:43</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Leave of Absence Submission">bc7de04b87b58a500548ca68cebb35ca</sc_cat_item>
-        <sc_category display_value="Leave of Absence">04bd284b87b58a500548ca68cebb3557</sc_category>
+        <sc_category display_value="Leave of Absences">04bd284b87b58a500548ca68cebb3557</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>tmbuchanan</sys_created_by>
         <sys_created_on>2024-04-30 15:21:23</sys_created_on>

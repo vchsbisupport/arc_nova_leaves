@@ -45,7 +45,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>u_military_leave_type</name>
-        <order>2600</order>
+        <order>3100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -81,15 +81,15 @@
         <sys_created_on>2024-06-03 17:37:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1ed2944a1b268e103b2aececbc4bcba4</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Military Leave Type</sys_name>
-        <sys_package/>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name>item_option_new_1ed2944a1b268e103b2aececbc4bcba4</sys_update_name>
         <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-03 19:57:53</sys_updated_on>
+        <sys_updated_on>2024-10-07 20:12:59</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

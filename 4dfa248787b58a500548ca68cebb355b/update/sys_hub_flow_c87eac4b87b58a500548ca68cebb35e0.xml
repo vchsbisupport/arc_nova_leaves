@@ -4,14 +4,14 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=9877533000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=13932024000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <internal_name>arc_nova_leaves</internal_name>
-        <label_cache>[{"name":"60c1903b-feaa-4d45-9308-00125790b09a.record.u_air_ref.u_sys_user.u_emp_type","label":"4 - Create Record➛AIR Leaves Record➛AIR Profile➛UCPath Profile➛Academic Employee Type","reference":"","reference_display":"Academic Employee Type","type":"choice","base_type":"choice","parent_table_name":"sys_user","column_name":"u_emp_type","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"Academic","used":false,"image":"","reference":false,"rawLabel":"Academic","selected":false,"missing":false,"value":"Academic","parameters":{"name":"sys_user"}},{"label":"Faculty","used":false,"image":"","reference":false,"rawLabel":"Faculty","selected":false,"missing":false,"value":"Faculty","parameters":{"name":"sys_user"}},{"label":"Faculty (Non-HCOMP)","used":false,"image":"","reference":false,"rawLabel":"Faculty (Non-HCOMP)","selected":false,"missing":false,"value":"Faculty (Non-HCOMP)","parameters":{"name":"sys_user"}},{"label":"GSR","used":false,"image":"","reference":false,"rawLabel":"GSR","selected":false,"missing":false,"value":"GSR","parameters":{"name":"sys_user"}},{"label":"Housestaff","used":false,"image":"","reference":false,"rawLabel":"Housestaff","selected":false,"missing":false,"value":"Housestaff","parameters":{"name":"sys_user"}},{"label":"MSP","used":false,"image":"","reference":false,"rawLabel":"MSP","selected":false,"missing":false,"value":"MSP","parameters":{"name":"sys_user"}},{"label":"Postdoc","used":false,"image":"","reference":false,"rawLabel":"Postdoc","selected":false,"missing":false,"value":"Postdoc","parameters":{"name":"sys_user"}},{"label":"RTAD","used":false,"image":"","reference":false,"rawLabel":"RTAD","selected":false,"missing":false,"value":"RTAD","parameters":{"name":"sys_user"}},{"label":"Scholar","used":false,"image":"","reference":false,"rawLabel":"Scholar","selected":false,"missing":false,"value":"Scholar","parameters":{"name":"sys_user"}},{"label":"Staff","used":false,"image":"","reference":false,"rawLabel":"Staff","selected":false,"missing":false,"value":"Staff","parameters":{"name":"sys_user"}},{"label":"VONS","used":false,"image":"","reference":false,"rawLabel":"VONS","selected":false,"missing":false,"value":"VONS","parameters":{"name":"sys_user"}}]},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_emp_type","label":"1 - Get Catalog Variables➛u_emp_type","reference":"","reference_display":"u_emp_type","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"flow_variable.assigned_to","label":"Flow Variables➛Assigned To","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"53b3ba22-9fb8-4bca-bf22-4a86728ce763"}},{"name":"flow_variable.u_leave_end","label":"Flow Variables➛Leave End Date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5d13bbb4-73f9-47af-ba40-da0223ac4f70"}},{"name":"flow_variable.u_leave_start","label":"Flow Variables➛Leave Start Date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"fd7e3a6f-5d56-4350-9437-d01d64386fe2"}},{"name":"flow_variable.u_air_emp","label":"Flow Variables➛AIR Profile","reference":"u_air_emp","reference_display":"AIR Employee","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"acee8658-628e-41ac-ad2b-2f02d5e83e60"}},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_leave_end","label":"1 - Get Catalog Variables➛u_leave_end","reference":"","reference_display":"u_leave_end","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_leave_start","label":"1 - Get Catalog Variables➛u_leave_start","reference":"","reference_display":"u_leave_start","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"0469fe37-2643-41a4-b6fc-2a804a9fae68.Record","label":"14 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df93bebd-0a7d-486f-a484-a0c54e8bd5bc.Record","label":"9 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c93355dc-4cd9-4260-a34c-ca9b58926273.Record","label":"5 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.urgent","label":"Flow Variables➛Urgent","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4f8b67c6-16fa-453c-b923-4b13a351f0e9"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.assigned_to","label":"Trigger - Service Catalog➛Requested Item Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"assigned_to"},{"name":"9c582ba8-3bf7-4275-b23f-3c46412ac108.Record","label":"19 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1fc4a765-741d-4918-8192-568591340faf.Record","label":"25 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59fd2a14-3e8c-4915-aa51-8ff82ca58cb6.Record","label":"29 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"99d5e765-e36b-44f4-b8c3-6159e57019b2.Record","label":"33 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_leave_type","label":"1 - Get Catalog Variables➛u_leave_type","reference":"","reference_display":"u_leave_type","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"Medical (Self)","value":"Medical (Self)","order":100.0},{"label":"Medical (Family Member)","value":"Medical (Family Member)","order":100.0},{"label":"Maternity (Birth parent pregnancy disability leave \u0026 parental bonding)","value":"Maternity","order":100.0},{"label":"Parental Bonding (Bonding time ONLY, no pregnancy disability leave)","value":"Parental Bonding","order":100.0},{"label":"Military","value":"Military","order":100.0},{"label":"Bereavement","value":"Bereavement","order":100.0},{"label":"Reproductive Loss","value":"Reproductive Loss","order":100.0},{"label":"Personal (Unpaid Non-Medical Leave)","value":"Personal","order":100.0},{"label":"Jury Duty","value":"Jury Duty","order":100.0},{"label":"Sabbatical","value":"Sabbatical","order":100.0},{"label":"Leave in Lieu of Sabbatical","value":"Leave in Lieu of Sabbatical","order":100.0},{"label":"Change in Work Location","value":"Change in Work Location","order":100.0},{"label":"Research/Professional Development","value":"Research/Professional Development","order":100.0},{"label":"Other","value":"Other","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"df93bebd-0a7d-486f-a484-a0c54e8bd5bc.Record.assigned_to","label":"9 - Create Task➛Catalog Task Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_task","column_name":"assigned_to"}]</label_cache>
+        <label_cache>[{"name":"df93bebd-0a7d-486f-a484-a0c54e8bd5bc.Record.assigned_to","label":"9 - Create Task➛Catalog Task Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_task","column_name":"assigned_to"},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_leave_type","label":"1 - Get Catalog Variables➛u_leave_type","reference":"","reference_display":"u_leave_type","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"Medical (Self)","value":"Medical (Self)","order":100.0},{"label":"Care of Sick Family Member","value":"Medical (Family Member)","order":100.0},{"label":"Maternity (Birth parent pregnancy disability leave \u0026 parental bonding)","value":"Maternity","order":100.0},{"label":"Parental Bonding (Bonding time ONLY, no pregnancy disability leave)","value":"Parental Bonding","order":100.0},{"label":"Military","value":"Military","order":100.0},{"label":"Bereavement","value":"Bereavement","order":100.0},{"label":"Reproductive Loss","value":"Reproductive Loss","order":100.0},{"label":"Personal (Unpaid Non-Medical Leave)","value":"Personal","order":100.0},{"label":"Jury Duty","value":"Jury Duty","order":100.0},{"label":"Sabbatical","value":"Sabbatical","order":100.0},{"label":"Leave in Lieu of Sabbatical","value":"Leave in Lieu of Sabbatical","order":100.0},{"label":"Change in Work Location","value":"Change in Work Location","order":100.0},{"label":"Research/Professional Development","value":"Research/Professional Development","order":100.0},{"label":"Other","value":"Other","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"99d5e765-e36b-44f4-b8c3-6159e57019b2.Record","label":"33 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59fd2a14-3e8c-4915-aa51-8ff82ca58cb6.Record","label":"29 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1fc4a765-741d-4918-8192-568591340faf.Record","label":"25 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9c582ba8-3bf7-4275-b23f-3c46412ac108.Record","label":"19 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.assigned_to","label":"Trigger - Service Catalog➛Requested Item Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"assigned_to"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"flow_variable.urgent","label":"Flow Variables➛Urgent","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4f8b67c6-16fa-453c-b923-4b13a351f0e9"}},{"name":"c93355dc-4cd9-4260-a34c-ca9b58926273.Record","label":"5 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df93bebd-0a7d-486f-a484-a0c54e8bd5bc.Record","label":"9 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0469fe37-2643-41a4-b6fc-2a804a9fae68.Record","label":"14 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_leave_start","label":"1 - Get Catalog Variables➛u_leave_start","reference":"","reference_display":"u_leave_start","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_leave_end","label":"1 - Get Catalog Variables➛u_leave_end","reference":"","reference_display":"u_leave_end","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"flow_variable.u_air_emp","label":"Flow Variables➛AIR Profile","reference":"u_air_emp","reference_display":"AIR Employee","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"acee8658-628e-41ac-ad2b-2f02d5e83e60"}},{"name":"flow_variable.u_leave_start","label":"Flow Variables➛Leave Start Date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"fd7e3a6f-5d56-4350-9437-d01d64386fe2"}},{"name":"flow_variable.u_leave_end","label":"Flow Variables➛Leave End Date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5d13bbb4-73f9-47af-ba40-da0223ac4f70"}},{"name":"flow_variable.assigned_to","label":"Flow Variables➛Assigned To","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"53b3ba22-9fb8-4bca-bf22-4a86728ce763"}},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_emp_type","label":"1 - Get Catalog Variables➛u_emp_type","reference":"","reference_display":"u_emp_type","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"60c1903b-feaa-4d45-9308-00125790b09a.record.u_air_ref.u_sys_user.u_emp_type","label":"4 - Create Record➛AIR Leaves Record➛AIR Profile➛UCPath Profile➛Academic Employee Type","reference":"","reference_display":"Academic Employee Type","type":"choice","base_type":"choice","parent_table_name":"sys_user","column_name":"u_emp_type","choices":[{"label":"-- None --","rawLabel":"-- None --","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":""},{"label":"Academic","rawLabel":"Academic","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Academic","parameters":{"name":"sys_user"}},{"label":"Faculty","rawLabel":"Faculty","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Faculty","parameters":{"name":"sys_user"}},{"label":"Faculty (Non-HCOMP)","rawLabel":"Faculty (Non-HCOMP)","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Faculty (Non-HCOMP)","parameters":{"name":"sys_user"}},{"label":"GSR","rawLabel":"GSR","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"GSR","parameters":{"name":"sys_user"}},{"label":"Housestaff","rawLabel":"Housestaff","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Housestaff","parameters":{"name":"sys_user"}},{"label":"MSP","rawLabel":"MSP","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"MSP","parameters":{"name":"sys_user"}},{"label":"Postdoc","rawLabel":"Postdoc","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Postdoc","parameters":{"name":"sys_user"}},{"label":"RTAD","rawLabel":"RTAD","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"RTAD","parameters":{"name":"sys_user"}},{"label":"Scholar","rawLabel":"Scholar","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Scholar","parameters":{"name":"sys_user"}},{"label":"Staff","rawLabel":"Staff","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Staff","parameters":{"name":"sys_user"}},{"label":"VONS","rawLabel":"VONS","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"VONS","parameters":{"name":"sys_user"}}]}]</label_cache>
         <master_snapshot>d25520c21ba68e103b2aececbc4bcb55</master_snapshot>
         <name>ARC NOVA Leaves</name>
         <natlang/>
@@ -23,14 +23,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>tmbuchanan</sys_created_by>
         <sys_created_on>2024-04-30 15:22:14</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>c87eac4b87b58a500548ca68cebb35e0</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>ARC NOVA Leaves</sys_name>
         <sys_overrides/>
         <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
@@ -38,8 +38,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name>sys_hub_flow_c87eac4b87b58a500548ca68cebb35e0</sys_update_name>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:53</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_variable_value action="delete_multiple" query="document_key=c87eac4b87b58a500548ca68cebb35e0"/>
@@ -78,15 +78,15 @@
         <sys_created_on>2024-04-30 15:22:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>899ee48b87b58a500548ca68cebb35be</sys_id>
-        <sys_mod_count>86</sys_mod_count>
+        <sys_mod_count>93</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:51</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -419,7 +419,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation>(function calculatedFieldValue(current) {
 
@@ -462,7 +462,7 @@
         <next_element/>
         <order>100</order>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -479,15 +479,15 @@
         <sys_created_on>2024-04-30 15:22:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>859ee48b87b58a500548ca68cebb35b7</sys_id>
-        <sys_mod_count>171</sys_mod_count>
+        <sys_mod_count>185</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -505,7 +505,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
         <audit>false</audit>
         <calculation>(function calculatedFieldValue(current) {
 
@@ -565,15 +565,15 @@
         <sys_created_on>2024-04-30 15:22:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c19ea44b87b58a500548ca68cebb35c8</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 15:44:06</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -606,15 +606,15 @@
         <sys_created_on>2024-06-07 17:56:03</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>001efc138726c2500548ca68cebb35df</sys_id>
-        <sys_mod_count>176</sys_mod_count>
+        <sys_mod_count>198</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>95ef3066-0c57-47e7-8bbc-5359982dbf56</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=001efc138726c2500548ca68cebb35df"/>
@@ -701,15 +701,15 @@
         <sys_created_on>2024-06-07 18:19:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>017389978726c2500548ca68cebb352a</sys_id>
-        <sys_mod_count>172</sys_mod_count>
+        <sys_mod_count>194</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>5697bb6e-2980-496d-9eb1-603d3b9b1c99</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=017389978726c2500548ca68cebb352a"/>
@@ -796,15 +796,15 @@
         <sys_created_on>2024-07-19 18:12:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0184d97c87ef0650e4cdba2c8bbb35c2</sys_id>
-        <sys_mod_count>152</sys_mod_count>
+        <sys_mod_count>174</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>69671c0b-59fe-484d-bdb9-dc601f0f10d5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0184d97c87ef0650e4cdba2c8bbb35c2"/>
@@ -891,15 +891,15 @@
         <sys_created_on>2024-06-07 18:19:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>097389978726c2500548ca68cebb3511</sys_id>
-        <sys_mod_count>172</sys_mod_count>
+        <sys_mod_count>194</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>b8815c68-f023-4128-af36-aad491ea6f35</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=097389978726c2500548ca68cebb3511"/>
@@ -986,15 +986,15 @@
         <sys_created_on>2024-06-07 18:19:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>097389978726c2500548ca68cebb3521</sys_id>
-        <sys_mod_count>172</sys_mod_count>
+        <sys_mod_count>194</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>7981e39f-e649-497b-8a67-c0db89755baa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=097389978726c2500548ca68cebb3521"/>
@@ -1081,15 +1081,15 @@
         <sys_created_on>2024-06-07 18:32:47</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0a76095b8726c2500548ca68cebb35b3</sys_id>
-        <sys_mod_count>170</sys_mod_count>
+        <sys_mod_count>192</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>60c1903b-feaa-4d45-9308-00125790b09a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0a76095b8726c2500548ca68cebb35b3"/>
@@ -1163,15 +1163,15 @@
         <sys_created_on>2024-06-04 22:08:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>142b16921b2602503b2aececbc4bcb61</sys_id>
-        <sys_mod_count>184</sys_mod_count>
+        <sys_mod_count>206</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>df93bebd-0a7d-486f-a484-a0c54e8bd5bc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=142b16921b2602503b2aececbc4bcb61"/>
@@ -1196,11 +1196,11 @@
         <sys_created_by>tmbuchanan</sys_created_by>
         <sys_created_on>2024-06-04 22:08:45</sys_created_on>
         <sys_id>182b16921b2602503b2aececbc4bcb62</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:23</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-09-25 14:55:16</sys_updated_on>
         <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>request_item={{Service Catalog_1.request_item}}^order=200^short_description=Confirmation of Accrual Balances^assigned_to={{Service Catalog_1.request_item.assigned_to}}^state=1</value>
+        <value>request_item={{Service Catalog_1.request_item}}^order=200^short_description=Confirmation of Accrual Balances^state=1</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task_table</field>
@@ -1232,15 +1232,15 @@
         <sys_created_on>2024-06-07 15:44:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>30ef581787a2c2500548ca68cebb3565</sys_id>
-        <sys_mod_count>182</sys_mod_count>
+        <sys_mod_count>204</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>535e18f6-99a4-47cd-9aa7-e6c0c2cee6e1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=30ef581787a2c2500548ca68cebb3565"/>
@@ -1327,15 +1327,15 @@
         <sys_created_on>2024-07-19 18:00:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>31c1dd7887ef0650e4cdba2c8bbb35b1</sys_id>
-        <sys_mod_count>158</sys_mod_count>
+        <sys_mod_count>180</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>26aee731-3bcb-461f-a770-1a7f7f209c16</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=31c1dd7887ef0650e4cdba2c8bbb35b1"/>
@@ -1422,15 +1422,15 @@
         <sys_created_on>2024-08-22 23:07:24</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>352e157b93845a1077eefda74dba103c</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>30135ee4-e9b6-483c-8c0d-148683eafad6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=352e157b93845a1077eefda74dba103c"/>
@@ -1517,15 +1517,15 @@
         <sys_created_on>2024-07-19 18:08:42</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>36b3d93c87ef0650e4cdba2c8bbb35d2</sys_id>
-        <sys_mod_count>154</sys_mod_count>
+        <sys_mod_count>176</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>3a064f7a-dd38-4649-b5fd-8c82bf71994e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=36b3d93c87ef0650e4cdba2c8bbb35d2"/>
@@ -1612,15 +1612,15 @@
         <sys_created_on>2024-06-07 17:57:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3a7ef4538726c2500548ca68cebb35d4</sys_id>
-        <sys_mod_count>174</sys_mod_count>
+        <sys_mod_count>196</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>1770560c-cbd6-4df9-ad31-401d2cb4ac68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3a7ef4538726c2500548ca68cebb35d4"/>
@@ -1707,15 +1707,15 @@
         <sys_created_on>2024-06-07 17:56:03</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>441efc138726c2500548ca68cebb35e9</sys_id>
-        <sys_mod_count>176</sys_mod_count>
+        <sys_mod_count>198</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>9c582ba8-3bf7-4275-b23f-3c46412ac108</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=441efc138726c2500548ca68cebb35e9"/>
@@ -1776,15 +1776,15 @@
         <sys_created_on>2024-06-07 18:19:35</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7c7349978726c2500548ca68cebb35e2</sys_id>
-        <sys_mod_count>172</sys_mod_count>
+        <sys_mod_count>194</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>59fd2a14-3e8c-4915-aa51-8ff82ca58cb6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7c7349978726c2500548ca68cebb35e2"/>
@@ -1809,11 +1809,11 @@
         <sys_created_by>tmbuchanan</sys_created_by>
         <sys_created_on>2024-06-07 18:19:35</sys_created_on>
         <sys_id>707349978726c2500548ca68cebb35e4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:24</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-09-19 21:25:01</sys_updated_on>
         <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>request_item={{Service Catalog_1.request_item}}^short_description=AIREL and EcoTime Updates^order=600^assigned_to={{Service Catalog_1.request_item.assigned_to}}^state=1</value>
+        <value>request_item={{Service Catalog_1.request_item}}^short_description=AIREL and EcoTime Updates^order=600^state=1</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task_table</field>
@@ -1845,15 +1845,15 @@
         <sys_created_on>2024-06-07 16:18:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>84c7a41f87a2c2500548ca68cebb3511</sys_id>
-        <sys_mod_count>180</sys_mod_count>
+        <sys_mod_count>202</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>0469fe37-2643-41a4-b6fc-2a804a9fae68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=84c7a41f87a2c2500548ca68cebb3511"/>
@@ -1914,15 +1914,15 @@
         <sys_created_on>2024-06-04 22:08:45</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>982b16921b2602503b2aececbc4bcb59</sys_id>
-        <sys_mod_count>184</sys_mod_count>
+        <sys_mod_count>206</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>c93355dc-4cd9-4260-a34c-ca9b58926273</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=982b16921b2602503b2aececbc4bcb59"/>
@@ -1983,15 +1983,15 @@
         <sys_created_on>2024-08-22 23:07:24</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a12e157b93845a1077eefda74dba1002</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>47c6bd7e-fa88-4e96-b654-7897b8a51c44</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a12e157b93845a1077eefda74dba1002"/>
@@ -2078,15 +2078,15 @@
         <sys_created_on>2024-08-22 23:07:24</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a12e157b93845a1077eefda74dba1021</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>cf32236a-ebe0-48d4-911c-c4044748f5ad</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a12e157b93845a1077eefda74dba1021"/>
@@ -2173,15 +2173,15 @@
         <sys_created_on>2024-08-22 23:07:23</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a52ed17b93845a1077eefda74dba10c7</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>1d15b184-2ed3-47e4-97f2-caacd5602e7a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a52ed17b93845a1077eefda74dba10c7"/>
@@ -2268,15 +2268,15 @@
         <sys_created_on>2024-06-03 18:55:33</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ac55ec821ba68e103b2aececbc4bcb77</sys_id>
-        <sys_mod_count>194</sys_mod_count>
+        <sys_mod_count>216</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>f26e3b7d-212a-41d9-9e5a-7847ee09bdd6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ac55ec821ba68e103b2aececbc4bcb77"/>
@@ -2363,15 +2363,15 @@
         <sys_created_on>2024-06-07 18:19:35</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b07349978726c2500548ca68cebb35c9</sys_id>
-        <sys_mod_count>172</sys_mod_count>
+        <sys_mod_count>194</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>1fc4a765-741d-4918-8192-568591340faf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b07349978726c2500548ca68cebb35c9"/>
@@ -2432,15 +2432,15 @@
         <sys_created_on>2024-07-19 20:58:01</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ba7af1b487a34650e4cdba2c8bbb35b8</sys_id>
-        <sys_mod_count>148</sys_mod_count>
+        <sys_mod_count>170</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>90185c44-eaa8-47c2-9ada-3e7c5440f0ef</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ba7af1b487a34650e4cdba2c8bbb35b8"/>
@@ -2527,15 +2527,15 @@
         <sys_created_on>2024-08-22 23:07:24</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>bd2e157b93845a1077eefda74dba1057</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>a1a4c98d-b683-402b-a461-1d532b9ce34b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bd2e157b93845a1077eefda74dba1057"/>
@@ -2622,15 +2622,15 @@
         <sys_created_on>2024-06-07 18:19:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c97389978726c2500548ca68cebb3519</sys_id>
-        <sys_mod_count>172</sys_mod_count>
+        <sys_mod_count>194</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>fdddc7f4-e459-4e11-a4ce-f79093d9733a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c97389978726c2500548ca68cebb3519"/>
@@ -2717,15 +2717,15 @@
         <sys_created_on>2024-07-19 18:03:32</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>cf8295f887ef0650e4cdba2c8bbb3550</sys_id>
-        <sys_mod_count>156</sys_mod_count>
+        <sys_mod_count>178</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>001fe695-213c-47eb-aa72-9d1e1193df5e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cf8295f887ef0650e4cdba2c8bbb3550"/>
@@ -2812,15 +2812,15 @@
         <sys_created_on>2024-08-22 23:07:23</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>d52ed17b93845a1077eefda74dba1077</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>ac2df493-86db-4c7b-9c56-981b8e0c17d1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d52ed17b93845a1077eefda74dba1077"/>
@@ -2907,15 +2907,15 @@
         <sys_created_on>2024-07-19 17:53:43</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>db40913887ef0650e4cdba2c8bbb3597</sys_id>
-        <sys_mod_count>160</sys_mod_count>
+        <sys_mod_count>182</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>9bdf7737-25ca-447f-b960-3a6fd19d4275</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=db40913887ef0650e4cdba2c8bbb3597"/>
@@ -3002,15 +3002,15 @@
         <sys_created_on>2024-07-23 17:25:20</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>de20bd0a872bca50e4cdba2c8bbb3567</sys_id>
-        <sys_mod_count>140</sys_mod_count>
+        <sys_mod_count>162</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>97603fee-43ca-4b51-962c-6177899905da</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=de20bd0a872bca50e4cdba2c8bbb3567"/>
@@ -3096,15 +3096,15 @@
         <sys_created_on>2024-08-22 23:07:23</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e92ed17b93845a1077eefda74dba10e4</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>330c63ca-3eec-484b-bd13-d08e68082aef</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e92ed17b93845a1077eefda74dba10e4"/>
@@ -3191,15 +3191,15 @@
         <sys_created_on>2024-06-07 18:19:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f87349978726c2500548ca68cebb35f9</sys_id>
-        <sys_mod_count>172</sys_mod_count>
+        <sys_mod_count>194</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>99d5e765-e36b-44f4-b8c3-6159e57019b2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f87349978726c2500548ca68cebb35f9"/>
@@ -3260,15 +3260,15 @@
         <sys_created_on>2024-07-23 20:40:44</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f8ec5aca87ebca50e4cdba2c8bbb3548</sys_id>
-        <sys_mod_count>100</sys_mod_count>
+        <sys_mod_count>122</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>59c5d985-cb9a-4a35-810a-dbebae5af268</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f8ec5aca87ebca50e4cdba2c8bbb3548"/>
@@ -3355,15 +3355,15 @@
         <sys_created_on>2024-07-19 20:58:00</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fa7af1b487a34650e4cdba2c8bbb358d</sys_id>
-        <sys_mod_count>148</sys_mod_count>
+        <sys_mod_count>170</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:23:40</sys_updated_on>
         <ui_id>eedc855f-acee-4536-a3b0-ef875aada759</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fa7af1b487a34650e4cdba2c8bbb358d"/>
@@ -3451,15 +3451,15 @@
         <sys_created_on>2024-06-07 17:56:03</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>041efc138726c2500548ca68cebb35eb</sys_id>
-        <sys_mod_count>152</sys_mod_count>
+        <sys_mod_count>166</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:52</sys_updated_on>
         <ui_id>2c4b5b3c-89e7-4cd8-bf21-e4fc9ccc428b</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=041efc138726c2500548ca68cebb35eb"/>
@@ -3569,13 +3569,13 @@
         <input_name>checklist_template</input_name>
         <instance>041efc138726c2500548ca68cebb35eb</instance>
         <referenced_table>sys_hub_sub_flow_instance</referenced_table>
-        <script>{"checklist_template":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar cat \u003d fd_data._1__get_catalog_variables.u_leave_type.toString();\nvar ed \u003d fd_data._1__get_catalog_variables.u_emp_type.toString();\n\nvar gr;\nvar templateID;\n\nif (cat \u003d\u003d \u0027Maternity\u0027 || cat \u003d\u003d \u0027Medical (Self)\u0027) {\n    if (ed \u003d\u003d \u0027Faculty\u0027 || ed \u003d\u003d \u0027Academic\u0027 || ed \u003d\u003d \u0027Faculty (Non-HCOMP)\u0027) {\n        //NOVA Leaves Maternity/Employee Own Illness Leave Designation Faculty/Academic Task\n        templateID \u003d \u0027f647949b8762c2500548ca68cebb3523\u0027;\n    }\n    else {\n        //NOVA Leaves Maternity/Employee Own Illness Leave Designation Postdoc Task\n        templateID \u003d \u00272e5714db8762c2500548ca68cebb3530\u0027;\n    }\n}\nelse if (cat \u003d\u003d \u0027Parental Bonding\u0027 || cat \u003d\u003d \u0027Medical (Family Member)\u0027) {\n    if (ed \u003d\u003d \u0027Faculty\u0027 || ed \u003d\u003d \u0027Academic\u0027 || ed \u003d\u003d \u0027Faculty (Non-HCOMP)\u0027) {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Designation Faculty/Academic Task\n        templateID \u003d \u0027fcc7105f8762c2500548ca68cebb35a0\u0027;\n    }\n    else {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Designation Postdoc Task\n        templateID \u003d \u0027afa7d89b8762c2500548ca68cebb3503\u0027;\n    }\n}\nelse if (ed !\u003d \u0027Faculty\u0027 \u0026\u0026 ed !\u003d \u0027Academic\u0027 \u0026\u0026 ed !\u003d \u0027Faculty (Non-HCOMP)\u0027 \u0026\u0026 cat \u003d\u003d \u0027Personal\u0027) {\n    //NOVA Leaves Postdoc Personal Leave Designation Task\n    templateID \u003d \u0027f3e9509f8762c2500548ca68cebb3573\u0027;\n}\nelse {\n    //NOVA Leaves Faculty/Academic Personal/All Academic/Jury Duty/Repro Loss/Bereavement Leave Designation Task\n    templateID \u003d \u00274dd9509f8762c2500548ca68cebb3571\u0027;\n}\n\ngr \u003d new GlideRecord(\u0027checklist_template\u0027);\ngr.get(templateID);\nreturn gr;"}}</script>
+        <script>{"checklist_template":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar cat \u003d fd_data._1__get_catalog_variables.u_leave_type.toString();\nvar ed \u003d fd_data._1__get_catalog_variables.u_emp_type.toString();\n\nvar gr;\nvar templateID;\n\nif (cat \u003d\u003d \u0027Maternity\u0027 || cat \u003d\u003d \u0027Medical (Self)\u0027) {\n    if (ed \u003d\u003d \u0027Faculty\u0027 || ed \u003d\u003d \u0027Academic\u0027 || ed \u003d\u003d \u0027Faculty (Non-HCOMP)\u0027) {\n        //NOVA Leaves Maternity/Employee Own Illness Leave Designation Faculty/Academic Task\n        templateID \u003d \u0027f647949b8762c2500548ca68cebb3523\u0027;\n    }\n    else {\n        //NOVA Leaves Maternity/Employee Own Illness Leave Designation Postdoc Task\n        templateID \u003d \u00272e5714db8762c2500548ca68cebb3530\u0027;\n    }\n}\nelse if (cat \u003d\u003d \u0027Parental Bonding\u0027 || cat \u003d\u003d \u0027Medical (Family Member)\u0027) {\n    if (ed \u003d\u003d \u0027Faculty\u0027 || ed \u003d\u003d \u0027Academic\u0027 || ed \u003d\u003d \u0027Faculty (Non-HCOMP)\u0027) {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Designation Faculty/Academic Task\n        templateID \u003d \u0027fcc7105f8762c2500548ca68cebb35a0\u0027;\n    }\n    else {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Designation Postdoc Task\n        templateID \u003d \u0027afa7d89b8762c2500548ca68cebb3503\u0027;\n    }\n}\nelse if (ed !\u003d \u0027Faculty\u0027 \u0026\u0026 ed !\u003d \u0027Academic\u0027 \u0026\u0026 ed !\u003d \u0027Faculty (Non-HCOMP)\u0027 \u0026\u0026 cat \u003d\u003d \u0027Personal\u0027) {\n    //NOVA Leaves Postdoc Personal Leave Designation Task\n    templateID \u003d \u0027f3e9509f8762c2500548ca68cebb3573\u0027;\n}\nelse {\n    //NOVA Leaves Faculty/Academic Personal/All Academic/Jury Duty/Repro Loss/Bereavement Leave Designation Task\n    templateID \u003d \u00274dd9509f8762c2500548ca68cebb3571\u0027;\n}\n\nvar tmpid \u003d new GlideRecord(\u0027checklist_template\u0027);\ntmpid.get(templateID);\nreturn tmpid;"}}</script>
         <sys_created_by>tmbuchanan</sys_created_by>
         <sys_created_on>2024-06-07 17:56:04</sys_created_on>
         <sys_id>441efc138726c2500548ca68cebb35fd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:22</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
         <attributes/>
@@ -3593,15 +3593,15 @@
         <sys_created_on>2024-06-07 18:19:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>347349978726c2500548ca68cebb35fb</sys_id>
-        <sys_mod_count>148</sys_mod_count>
+        <sys_mod_count>162</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:52</sys_updated_on>
         <ui_id>783643e1-bfd3-4f6a-a0a4-c21a5f1febab</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=347349978726c2500548ca68cebb35fb"/>
@@ -3748,15 +3748,15 @@
         <sys_created_on>2024-06-07 15:44:13</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>34ef581787a2c2500548ca68cebb3550</sys_id>
-        <sys_mod_count>158</sys_mod_count>
+        <sys_mod_count>172</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:52</sys_updated_on>
         <ui_id>55736e8b-fc47-480f-82fe-8ab49d4f26ef</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=34ef581787a2c2500548ca68cebb3550"/>
@@ -3903,15 +3903,15 @@
         <sys_created_on>2024-06-07 16:18:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>44c7a41f87a2c2500548ca68cebb3514</sys_id>
-        <sys_mod_count>156</sys_mod_count>
+        <sys_mod_count>170</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:52</sys_updated_on>
         <ui_id>d3504c93-ad56-4a21-a331-f3faff6c2689</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=44c7a41f87a2c2500548ca68cebb3514"/>
@@ -4048,13 +4048,13 @@
         <input_name>checklist_template</input_name>
         <instance>44c7a41f87a2c2500548ca68cebb3514</instance>
         <referenced_table>sys_hub_sub_flow_instance</referenced_table>
-        <script>{"checklist_template":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar cat \u003d fd_data._1__get_catalog_variables.u_leave_type.toString();\nvar et \u003d fd_data._1__get_catalog_variables.u_emp_type.toString();\n\nvar gr;\nvar templateID;\n\nif (et \u003d\u003d \u0027Faculty\u0027 || et \u003d\u003d \u0027Academic\u0027 || et \u003d\u003d \u0027Faculty (Non-HCOMP)\u0027) {\n    //Use Faculty/Academic Templates\n    if (cat \u003d\u003d \u0027Maternity\u0027) {\n        //NOVA Leaves Maternity Leave Paperwork Faculty/Academic Task\n        //gs.log(\u0027Subflow - Faculty maternity leave paperwork\u0027);\n        templateID \u003d \u0027a69f485f8722c2500548ca68cebb35be\u0027;\n        //return \u0027NOVA Leaves Maternity Leave Paperwork Faculty/Academic Task\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Parental Bonding\u0027 || cat \u003d\u003d \u0027Medical (Family Member)\u0027) {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Paperwork Faculty/Academic Task\n        templateID \u003d \u0027ebb3d8178762c2500548ca68cebb3558\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Medical (Self)\u0027) {\n        //NOVA Leaves Employee\u0027s Own Illness Leave Paperwork Faculty/Academic Task\n        templateID \u003d \u00275f25141b8762c2500548ca68cebb352a\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Personal\u0027 || cat \u003d\u003d \u0027Sabbatical\u0027 || cat \u003d\u003d \u0027Leave in Lieu of Sabbatical\u0027 || cat \u003d\u003d \u0027Research/Professional Development\u0027 || cat \u003d\u003d \u0027Change in Work Location\u0027) {\n        //NOVA Leaves Personal/Academic Leave Paperwork Task\n        templateID \u003d \u0027c6659c5b8762c2500548ca68cebb357c\u0027;\n    }\n    else {\n        //NOVA Leaves Jury Duty, Bereavement, and Reproductive Loss Leave Paperwork Task\n        templateID \u003d \u002702f5949b8762c2500548ca68cebb351e\u0027;\n    }\n}\nelse {\n    //Use Postdoc templates\n    if (cat \u003d\u003d \u0027Maternity\u0027) {\n        //NOVA Leaves Maternity Leave Paperwork Postdoc Task\n        templateID \u003d \u002771219cdf8722c2500548ca68cebb35d4\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Parental Bonding\u0027 || cat \u003d\u003d \u0027Medical (Family Member)\u0027) {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Paperwork Postdoc Task\n        templateID \u003d \u0027afa7d89b8762c2500548ca68cebb3503\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Medical (Self)\u0027) {\n        //NOVA Leaves Employee\u0027s Own Illness Leave Paperwork Postdoc Task\n        templateID \u003d \u00278b3594978762c2500548ca68cebb3597\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Personal\u0027 || cat \u003d\u003d \u0027Sabbatical\u0027 || cat \u003d\u003d \u0027Leave in Lieu of Sabbatical\u0027 || cat \u003d\u003d \u0027Research/Professional Development\u0027 || cat \u003d\u003d \u0027Change in Work Location\u0027) {\n        //NOVA Leaves Personal/Academic Leave Paperwork Task\n        templateID \u003d \u0027c6659c5b8762c2500548ca68cebb357c\u0027;\n    }\n    else {\n        //NOVA Leaves Jury Duty, Bereavement, and Reproductive Loss Leave Paperwork Task\n        templateID \u003d \u002702f5949b8762c2500548ca68cebb351e\u0027;\n    }\n}\n\ngr \u003d new GlideRecord(\u0027checklist_template\u0027);\ngr.get(templateID);\nreturn gr;"}}</script>
+        <script>{"checklist_template":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar cat \u003d fd_data._1__get_catalog_variables.u_leave_type.toString();\nvar et \u003d fd_data._1__get_catalog_variables.u_emp_type.toString();\n\nvar gr;\nvar templateID;\n\nif (et \u003d\u003d \u0027Faculty\u0027 || et \u003d\u003d \u0027Academic\u0027 || et \u003d\u003d \u0027Faculty (Non-HCOMP)\u0027) {\n    //Use Faculty/Academic Templates\n    if (cat \u003d\u003d \u0027Maternity\u0027) {\n        //NOVA Leaves Maternity Leave Paperwork Faculty/Academic Task\n        //gs.log(\u0027Subflow - Faculty maternity leave paperwork\u0027);\n        templateID \u003d \u0027a69f485f8722c2500548ca68cebb35be\u0027;\n        //return \u0027NOVA Leaves Maternity Leave Paperwork Faculty/Academic Task\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Parental Bonding\u0027 || cat \u003d\u003d \u0027Medical (Family Member)\u0027) {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Paperwork Faculty/Academic Task\n        templateID \u003d \u0027ebb3d8178762c2500548ca68cebb3558\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Medical (Self)\u0027) {\n        //NOVA Leaves Employee\u0027s Own Illness Leave Paperwork Faculty/Academic Task\n        templateID \u003d \u00275f25141b8762c2500548ca68cebb352a\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Personal\u0027 || cat \u003d\u003d \u0027Sabbatical\u0027 || cat \u003d\u003d \u0027Leave in Lieu of Sabbatical\u0027 || cat \u003d\u003d \u0027Research/Professional Development\u0027 || cat \u003d\u003d \u0027Change in Work Location\u0027) {\n        //NOVA Leaves Personal/Academic Leave Paperwork Task\n        templateID \u003d \u0027c6659c5b8762c2500548ca68cebb357c\u0027;\n    }\n    else {\n        //NOVA Leaves Jury Duty, Bereavement, and Reproductive Loss Leave Paperwork Task\n        templateID \u003d \u002702f5949b8762c2500548ca68cebb351e\u0027;\n    }\n}\nelse {\n    //Use Postdoc templates\n    if (cat \u003d\u003d \u0027Maternity\u0027) {\n        //NOVA Leaves Maternity Leave Paperwork Postdoc Task\n        templateID \u003d \u002771219cdf8722c2500548ca68cebb35d4\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Parental Bonding\u0027 || cat \u003d\u003d \u0027Medical (Family Member)\u0027) {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Paperwork Postdoc Task\n        templateID \u003d \u0027afa7d89b8762c2500548ca68cebb3503\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Medical (Self)\u0027) {\n        //NOVA Leaves Employee\u0027s Own Illness Leave Paperwork Postdoc Task\n        templateID \u003d \u00278b3594978762c2500548ca68cebb3597\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Personal\u0027 || cat \u003d\u003d \u0027Sabbatical\u0027 || cat \u003d\u003d \u0027Leave in Lieu of Sabbatical\u0027 || cat \u003d\u003d \u0027Research/Professional Development\u0027 || cat \u003d\u003d \u0027Change in Work Location\u0027) {\n        //NOVA Leaves Personal/Academic Leave Paperwork Task\n        templateID \u003d \u0027c6659c5b8762c2500548ca68cebb357c\u0027;\n    }\n    else {\n        //NOVA Leaves Jury Duty, Bereavement, and Reproductive Loss Leave Paperwork Task\n        templateID \u003d \u002702f5949b8762c2500548ca68cebb351e\u0027;\n    }\n}\n\nvar tmpid \u003d new GlideRecord(\u0027checklist_template\u0027);\ntmpid.get(templateID);\nreturn tmpid;"}}</script>
         <sys_created_by>tmbuchanan</sys_created_by>
         <sys_created_on>2024-06-07 17:41:30</sys_created_on>
         <sys_id>babab85f87e2c2500548ca68cebb35dc</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:56:23</sys_updated_on>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:21</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
         <attributes/>
@@ -4072,15 +4072,15 @@
         <sys_created_on>2024-06-07 15:44:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6cef181787a2c2500548ca68cebb35d1</sys_id>
-        <sys_mod_count>158</sys_mod_count>
+        <sys_mod_count>172</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:52</sys_updated_on>
         <ui_id>74872b12-b348-4f70-a600-043d4071c996</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6cef181787a2c2500548ca68cebb35d1"/>
@@ -4227,15 +4227,15 @@
         <sys_created_on>2024-06-07 18:19:35</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b47349978726c2500548ca68cebb35e4</sys_id>
-        <sys_mod_count>148</sys_mod_count>
+        <sys_mod_count>162</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:52</sys_updated_on>
         <ui_id>45f6de36-fc92-4a7d-a8bf-7a5474683f59</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b47349978726c2500548ca68cebb35e4"/>
@@ -4382,15 +4382,15 @@
         <sys_created_on>2024-06-07 18:19:35</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fc7349978726c2500548ca68cebb35cb</sys_id>
-        <sys_mod_count>148</sys_mod_count>
+        <sys_mod_count>162</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:17</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:52</sys_updated_on>
         <ui_id>afbf3f00-b5c2-4297-a049-e853a09f4b90</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fc7349978726c2500548ca68cebb35cb"/>
@@ -4545,15 +4545,15 @@
         <sys_created_on>2024-07-23 17:20:16</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>d40f6146872bca50e4cdba2c8bbb35f8</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-29 21:59:16</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:52</sys_updated_on>
         <ui_id>df1957d9-9b15-4489-8f6b-9b3b86a668c2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5023,7 +5023,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>arc_nova_leaves</internal_name>
-        <label_cache>[{"name":"flow_variable.assigned_to","label":"Flow Variables➛Assigned To","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"53b3ba22-9fb8-4bca-bf22-4a86728ce763"}},{"name":"flow_variable.u_leave_end","label":"Flow Variables➛Leave End Date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5d13bbb4-73f9-47af-ba40-da0223ac4f70"}},{"name":"flow_variable.u_leave_start","label":"Flow Variables➛Leave Start Date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"fd7e3a6f-5d56-4350-9437-d01d64386fe2"}},{"name":"flow_variable.u_air_emp","label":"Flow Variables➛AIR Profile","reference":"u_air_emp","reference_display":"AIR Employee","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"acee8658-628e-41ac-ad2b-2f02d5e83e60"}},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_leave_end","label":"1 - Get Catalog Variables➛u_leave_end","reference":"","reference_display":"u_leave_end","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_leave_start","label":"1 - Get Catalog Variables➛u_leave_start","reference":"","reference_display":"u_leave_start","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"0469fe37-2643-41a4-b6fc-2a804a9fae68.Record","label":"14 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df93bebd-0a7d-486f-a484-a0c54e8bd5bc.Record","label":"9 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c93355dc-4cd9-4260-a34c-ca9b58926273.Record","label":"5 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.urgent","label":"Flow Variables➛Urgent","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4f8b67c6-16fa-453c-b923-4b13a351f0e9"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.assigned_to","label":"Trigger - Service Catalog➛Requested Item Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"assigned_to"},{"name":"9c582ba8-3bf7-4275-b23f-3c46412ac108.Record","label":"19 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1fc4a765-741d-4918-8192-568591340faf.Record","label":"25 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59fd2a14-3e8c-4915-aa51-8ff82ca58cb6.Record","label":"29 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"99d5e765-e36b-44f4-b8c3-6159e57019b2.Record","label":"33 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_leave_type","label":"1 - Get Catalog Variables➛u_leave_type","reference":"","reference_display":"u_leave_type","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"Medical (Self)","value":"Medical (Self)","order":100.0},{"label":"Medical (Family Member)","value":"Medical (Family Member)","order":100.0},{"label":"Maternity (Birth parent pregnancy disability leave \u0026 parental bonding)","value":"Maternity","order":100.0},{"label":"Parental Bonding (Bonding time ONLY, no pregnancy disability leave)","value":"Parental Bonding","order":100.0},{"label":"Military","value":"Military","order":100.0},{"label":"Bereavement","value":"Bereavement","order":100.0},{"label":"Reproductive Loss","value":"Reproductive Loss","order":100.0},{"label":"Personal (Unpaid Non-Medical Leave)","value":"Personal","order":100.0},{"label":"Jury Duty","value":"Jury Duty","order":100.0},{"label":"Sabbatical","value":"Sabbatical","order":100.0},{"label":"Leave in Lieu of Sabbatical","value":"Leave in Lieu of Sabbatical","order":100.0},{"label":"Change in Work Location","value":"Change in Work Location","order":100.0},{"label":"Research/Professional Development","value":"Research/Professional Development","order":100.0},{"label":"Other","value":"Other","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"df93bebd-0a7d-486f-a484-a0c54e8bd5bc.Record.assigned_to","label":"9 - Create Task➛Catalog Task Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_task","column_name":"assigned_to"}]</label_cache>
+        <label_cache>[{"name":"df93bebd-0a7d-486f-a484-a0c54e8bd5bc.Record.assigned_to","label":"9 - Create Task➛Catalog Task Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_task","column_name":"assigned_to"},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_leave_type","label":"1 - Get Catalog Variables➛u_leave_type","reference":"","reference_display":"u_leave_type","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":100.0},{"label":"Medical (Self)","value":"Medical (Self)","order":100.0},{"label":"Care of Sick Family Member","value":"Medical (Family Member)","order":100.0},{"label":"Maternity (Birth parent pregnancy disability leave \u0026 parental bonding)","value":"Maternity","order":100.0},{"label":"Parental Bonding (Bonding time ONLY, no pregnancy disability leave)","value":"Parental Bonding","order":100.0},{"label":"Military","value":"Military","order":100.0},{"label":"Bereavement","value":"Bereavement","order":100.0},{"label":"Reproductive Loss","value":"Reproductive Loss","order":100.0},{"label":"Personal (Unpaid Non-Medical Leave)","value":"Personal","order":100.0},{"label":"Jury Duty","value":"Jury Duty","order":100.0},{"label":"Sabbatical","value":"Sabbatical","order":100.0},{"label":"Leave in Lieu of Sabbatical","value":"Leave in Lieu of Sabbatical","order":100.0},{"label":"Change in Work Location","value":"Change in Work Location","order":100.0},{"label":"Research/Professional Development","value":"Research/Professional Development","order":100.0},{"label":"Other","value":"Other","order":100.0}],"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"99d5e765-e36b-44f4-b8c3-6159e57019b2.Record","label":"33 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"59fd2a14-3e8c-4915-aa51-8ff82ca58cb6.Record","label":"29 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1fc4a765-741d-4918-8192-568591340faf.Record","label":"25 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9c582ba8-3bf7-4275-b23f-3c46412ac108.Record","label":"19 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item.assigned_to","label":"Trigger - Service Catalog➛Requested Item Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"assigned_to"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"flow_variable.urgent","label":"Flow Variables➛Urgent","reference":"","reference_display":"","type":"boolean","base_type":"boolean","column_name":"","choices":[],"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"4f8b67c6-16fa-453c-b923-4b13a351f0e9"}},{"name":"c93355dc-4cd9-4260-a34c-ca9b58926273.Record","label":"5 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"df93bebd-0a7d-486f-a484-a0c54e8bd5bc.Record","label":"9 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0469fe37-2643-41a4-b6fc-2a804a9fae68.Record","label":"14 - Create Task➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_leave_start","label":"1 - Get Catalog Variables➛u_leave_start","reference":"","reference_display":"u_leave_start","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_leave_end","label":"1 - Get Catalog Variables➛u_leave_end","reference":"","reference_display":"u_leave_end","type":"glide_date","base_type":"glide_date","attributes":{"catalogType":"9","catalogTypeLabel":"Date"}},{"name":"flow_variable.u_air_emp","label":"Flow Variables➛AIR Profile","reference":"u_air_emp","reference_display":"AIR Employee","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"acee8658-628e-41ac-ad2b-2f02d5e83e60"}},{"name":"flow_variable.u_leave_start","label":"Flow Variables➛Leave Start Date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"fd7e3a6f-5d56-4350-9437-d01d64386fe2"}},{"name":"flow_variable.u_leave_end","label":"Flow Variables➛Leave End Date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"5d13bbb4-73f9-47af-ba40-da0223ac4f70"}},{"name":"flow_variable.assigned_to","label":"Flow Variables➛Assigned To","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"53b3ba22-9fb8-4bca-bf22-4a86728ce763"}},{"name":"f26e3b7d-212a-41d9-9e5a-7847ee09bdd6.u_emp_type","label":"1 - Get Catalog Variables➛u_emp_type","reference":"","reference_display":"u_emp_type","type":"choice","base_type":"choice","attributes":{"catalogType":"18","catalogTypeLabel":"Lookup Select Box"}},{"name":"60c1903b-feaa-4d45-9308-00125790b09a.record.u_air_ref.u_sys_user.u_emp_type","label":"4 - Create Record➛AIR Leaves Record➛AIR Profile➛UCPath Profile➛Academic Employee Type","reference":"","reference_display":"Academic Employee Type","type":"choice","base_type":"choice","parent_table_name":"sys_user","column_name":"u_emp_type","choices":[{"label":"-- None --","rawLabel":"-- None --","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":""},{"label":"Academic","rawLabel":"Academic","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Academic","parameters":{"name":"sys_user"}},{"label":"Faculty","rawLabel":"Faculty","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Faculty","parameters":{"name":"sys_user"}},{"label":"Faculty (Non-HCOMP)","rawLabel":"Faculty (Non-HCOMP)","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Faculty (Non-HCOMP)","parameters":{"name":"sys_user"}},{"label":"GSR","rawLabel":"GSR","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"GSR","parameters":{"name":"sys_user"}},{"label":"Housestaff","rawLabel":"Housestaff","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Housestaff","parameters":{"name":"sys_user"}},{"label":"MSP","rawLabel":"MSP","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"MSP","parameters":{"name":"sys_user"}},{"label":"Postdoc","rawLabel":"Postdoc","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Postdoc","parameters":{"name":"sys_user"}},{"label":"RTAD","rawLabel":"RTAD","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"RTAD","parameters":{"name":"sys_user"}},{"label":"Scholar","rawLabel":"Scholar","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Scholar","parameters":{"name":"sys_user"}},{"label":"Staff","rawLabel":"Staff","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"Staff","parameters":{"name":"sys_user"}},{"label":"VONS","rawLabel":"VONS","selected":false,"missing":false,"used":false,"image":"","reference":false,"value":"VONS","parameters":{"name":"sys_user"}}]}]</label_cache>
         <master>true</master>
         <name>ARC NOVA Leaves</name>
         <natlang/>
@@ -5040,7 +5040,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d25520c21ba68e103b2aececbc4bcb55</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -5048,8 +5048,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:47</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_variable_value action="delete_multiple" query="document_key=d25520c21ba68e103b2aececbc4bcb55"/>
@@ -5065,15 +5065,15 @@
         <sys_created_on>2024-06-03 18:55:41</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>625560c21ba68e103b2aececbc4bcb0f</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>63</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:08:01</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:51</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -5466,15 +5466,15 @@
         <sys_created_on>2024-06-03 18:55:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>165520c21ba68e103b2aececbc4bcbfc</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:55</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5552,15 +5552,15 @@
         <sys_created_on>2024-06-03 18:55:40</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>5a5520c21ba68e103b2aececbc4bcb89</sys_id>
-        <sys_mod_count>77</sys_mod_count>
+        <sys_mod_count>85</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:55</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -5593,15 +5593,15 @@
         <sys_created_on>2024-08-22 23:07:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>014e1d7b93845a1077eefda74dba10ab</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>cf32236a-ebe0-48d4-911c-c4044748f5ad</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=014e1d7b93845a1077eefda74dba10ab"/>
@@ -5688,15 +5688,15 @@
         <sys_created_on>2024-06-07 18:34:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>12d6059b8726c2500548ca68cebb35cb</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:55</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>c93355dc-4cd9-4260-a34c-ca9b58926273</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=12d6059b8726c2500548ca68cebb35cb"/>
@@ -5757,15 +5757,15 @@
         <sys_created_on>2024-06-07 18:34:26</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1ad6059b8726c2500548ca68cebb35c2</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:55</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>60c1903b-feaa-4d45-9308-00125790b09a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1ad6059b8726c2500548ca68cebb35c2"/>
@@ -5839,15 +5839,15 @@
         <sys_created_on>2024-07-23 17:20:57</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1e2f2d46872bca50e4cdba2c8bbb3584</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>26aee731-3bcb-461f-a770-1a7f7f209c16</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1e2f2d46872bca50e4cdba2c8bbb3584"/>
@@ -5934,15 +5934,15 @@
         <sys_created_on>2024-06-07 18:34:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>26d6459b8726c2500548ca68cebb351f</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:47</sys_updated_on>
         <ui_id>b8815c68-f023-4128-af36-aad491ea6f35</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=26d6459b8726c2500548ca68cebb351f"/>
@@ -6029,15 +6029,15 @@
         <sys_created_on>2024-06-07 18:34:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>2ad6059b8726c2500548ca68cebb35e2</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>0469fe37-2643-41a4-b6fc-2a804a9fae68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2ad6059b8726c2500548ca68cebb35e2"/>
@@ -6098,15 +6098,15 @@
         <sys_created_on>2024-06-07 18:34:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>2ed6059b8726c2500548ca68cebb35f0</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>9c582ba8-3bf7-4275-b23f-3c46412ac108</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2ed6059b8726c2500548ca68cebb35f0"/>
@@ -6167,15 +6167,15 @@
         <sys_created_on>2024-06-07 18:34:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>2ed6459b8726c2500548ca68cebb3511</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>59fd2a14-3e8c-4915-aa51-8ff82ca58cb6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2ed6459b8726c2500548ca68cebb3511"/>
@@ -6200,11 +6200,11 @@
         <sys_created_by>tmbuchanan</sys_created_by>
         <sys_created_on>2024-06-07 18:34:27</sys_created_on>
         <sys_id>22d6459b8726c2500548ca68cebb3513</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:54</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:14:23</sys_updated_on>
         <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>request_item={{Service Catalog_1.request_item}}^short_description=AIREL and EcoTime Updates^order=600^assigned_to={{Service Catalog_1.request_item.assigned_to}}^state=1</value>
+        <value>request_item={{Service Catalog_1.request_item}}^short_description=AIREL and EcoTime Updates^order=600^state=1</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task_table</field>
@@ -6236,15 +6236,15 @@
         <sys_created_on>2024-08-22 23:07:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>384e1d7b93845a1077eefda74dba1077</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:55</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>ac2df493-86db-4c7b-9c56-981b8e0c17d1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=384e1d7b93845a1077eefda74dba1077"/>
@@ -6331,15 +6331,15 @@
         <sys_created_on>2024-07-23 20:42:02</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3b2dd60e87ebca50e4cdba2c8bbb35bf</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:55</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>59c5d985-cb9a-4a35-810a-dbebae5af268</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3b2dd60e87ebca50e4cdba2c8bbb35bf"/>
@@ -6426,15 +6426,15 @@
         <sys_created_on>2024-06-07 18:34:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>3ed6459b8726c2500548ca68cebb3537</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:47</sys_updated_on>
         <ui_id>5697bb6e-2980-496d-9eb1-603d3b9b1c99</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3ed6459b8726c2500548ca68cebb3537"/>
@@ -6521,15 +6521,15 @@
         <sys_created_on>2024-08-22 23:07:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4d4e1d7b93845a1077eefda74dba109c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>47c6bd7e-fa88-4e96-b654-7897b8a51c44</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4d4e1d7b93845a1077eefda74dba109c"/>
@@ -6616,15 +6616,15 @@
         <sys_created_on>2024-06-07 18:34:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>52d6059b8726c2500548ca68cebb35db</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>535e18f6-99a4-47cd-9aa7-e6c0c2cee6e1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=52d6059b8726c2500548ca68cebb35db"/>
@@ -6711,15 +6711,15 @@
         <sys_created_on>2024-06-03 18:55:41</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>625560c21ba68e103b2aececbc4bcb0d</sys_id>
-        <sys_mod_count>78</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:55</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>f26e3b7d-212a-41d9-9e5a-7847ee09bdd6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=625560c21ba68e103b2aececbc4bcb0d"/>
@@ -6806,15 +6806,15 @@
         <sys_created_on>2024-06-07 18:34:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>62d6459b8726c2500548ca68cebb3518</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>99d5e765-e36b-44f4-b8c3-6159e57019b2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=62d6459b8726c2500548ca68cebb3518"/>
@@ -6875,15 +6875,15 @@
         <sys_created_on>2024-07-23 17:20:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>662f2d46872bca50e4cdba2c8bbb35b8</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>90185c44-eaa8-47c2-9ada-3e7c5440f0ef</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=662f2d46872bca50e4cdba2c8bbb35b8"/>
@@ -6970,15 +6970,15 @@
         <sys_created_on>2024-07-23 17:20:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>6a2f2d46872bca50e4cdba2c8bbb35a9</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>eedc855f-acee-4536-a3b0-ef875aada759</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6a2f2d46872bca50e4cdba2c8bbb35a9"/>
@@ -7065,15 +7065,15 @@
         <sys_created_on>2024-08-22 23:07:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>704e1d7b93845a1077eefda74dba1090</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>330c63ca-3eec-484b-bd13-d08e68082aef</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=704e1d7b93845a1077eefda74dba1090"/>
@@ -7160,15 +7160,15 @@
         <sys_created_on>2024-08-22 23:07:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>7c4e1d7b93845a1077eefda74dba1082</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>1d15b184-2ed3-47e4-97f2-caacd5602e7a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7c4e1d7b93845a1077eefda74dba1082"/>
@@ -7255,15 +7255,15 @@
         <sys_created_on>2024-08-22 23:07:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8d4e1d7b93845a1077eefda74dba10c0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>a1a4c98d-b683-402b-a461-1d532b9ce34b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8d4e1d7b93845a1077eefda74dba10c0"/>
@@ -7350,15 +7350,15 @@
         <sys_created_on>2024-07-23 17:20:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>962f2d46872bca50e4cdba2c8bbb359a</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>001fe695-213c-47eb-aa72-9d1e1193df5e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=962f2d46872bca50e4cdba2c8bbb359a"/>
@@ -7445,15 +7445,15 @@
         <sys_created_on>2024-07-23 17:20:57</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9a2f2d46872bca50e4cdba2c8bbb3579</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>9bdf7737-25ca-447f-b960-3a6fd19d4275</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9a2f2d46872bca50e4cdba2c8bbb3579"/>
@@ -7540,15 +7540,15 @@
         <sys_created_on>2024-06-07 18:34:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a2d6459b8726c2500548ca68cebb352f</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:47</sys_updated_on>
         <ui_id>7981e39f-e649-497b-8a67-c0db89755baa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a2d6459b8726c2500548ca68cebb352f"/>
@@ -7635,15 +7635,15 @@
         <sys_created_on>2024-06-07 18:34:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>a6d6459b8726c2500548ca68cebb3504</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>1770560c-cbd6-4df9-ad31-401d2cb4ac68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a6d6459b8726c2500548ca68cebb3504"/>
@@ -7730,15 +7730,15 @@
         <sys_created_on>2024-07-23 17:25:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c050b54a872bca50e4cdba2c8bbb35db</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>76</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:55</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>97603fee-43ca-4b51-962c-6177899905da</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c050b54a872bca50e4cdba2c8bbb35db"/>
@@ -7824,15 +7824,15 @@
         <sys_created_on>2024-08-22 23:07:54</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>cd4e1d7b93845a1077eefda74dba10b5</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>30135ee4-e9b6-483c-8c0d-148683eafad6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cd4e1d7b93845a1077eefda74dba10b5"/>
@@ -7919,15 +7919,15 @@
         <sys_created_on>2024-07-23 17:20:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>d22f2d46872bca50e4cdba2c8bbb35a2</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>3a064f7a-dd38-4649-b5fd-8c82bf71994e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d22f2d46872bca50e4cdba2c8bbb35a2"/>
@@ -8014,15 +8014,15 @@
         <sys_created_on>2024-06-07 18:34:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>dad6059b8726c2500548ca68cebb35d1</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>df93bebd-0a7d-486f-a484-a0c54e8bd5bc</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dad6059b8726c2500548ca68cebb35d1"/>
@@ -8047,11 +8047,11 @@
         <sys_created_by>tmbuchanan</sys_created_by>
         <sys_created_on>2024-06-07 18:34:27</sys_created_on>
         <sys_id>ded6059b8726c2500548ca68cebb35d2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:53</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:14:23</sys_updated_on>
         <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>request_item={{Service Catalog_1.request_item}}^order=200^short_description=Confirmation of Accrual Balances^assigned_to={{Service Catalog_1.request_item.assigned_to}}^state=1</value>
+        <value>request_item={{Service Catalog_1.request_item}}^order=200^short_description=Confirmation of Accrual Balances^state=1</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task_table</field>
@@ -8083,15 +8083,15 @@
         <sys_created_on>2024-06-07 18:34:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e2d6459b8726c2500548ca68cebb3527</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:47</sys_updated_on>
         <ui_id>fdddc7f4-e459-4e11-a4ce-f79093d9733a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e2d6459b8726c2500548ca68cebb3527"/>
@@ -8178,15 +8178,15 @@
         <sys_created_on>2024-06-07 18:34:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e6d6459b8726c2500548ca68cebb350b</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>1fc4a765-741d-4918-8192-568591340faf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e6d6459b8726c2500548ca68cebb350b"/>
@@ -8247,15 +8247,15 @@
         <sys_created_on>2024-06-07 18:34:27</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ead6059b8726c2500548ca68cebb35e9</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>95ef3066-0c57-47e7-8bbc-5359982dbf56</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ead6059b8726c2500548ca68cebb35e9"/>
@@ -8342,15 +8342,15 @@
         <sys_created_on>2024-07-23 17:20:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>ee2f2d46872bca50e4cdba2c8bbb35b0</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>69671c0b-59fe-484d-bdb9-dc601f0f10d5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ee2f2d46872bca50e4cdba2c8bbb35b0"/>
@@ -8438,15 +8438,15 @@
         <sys_created_on>2024-06-07 18:34:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>03d6459b8726c2500548ca68cebb358d</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>45f6de36-fc92-4a7d-a8bf-7a5474683f59</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=03d6459b8726c2500548ca68cebb358d"/>
@@ -8593,15 +8593,15 @@
         <sys_created_on>2024-06-07 18:34:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>32d6459b8726c2500548ca68cebb354e</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>55736e8b-fc47-480f-82fe-8ab49d4f26ef</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=32d6459b8726c2500548ca68cebb354e"/>
@@ -8748,15 +8748,15 @@
         <sys_created_on>2024-06-07 18:34:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>72d6459b8726c2500548ca68cebb353a</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:55</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>74872b12-b348-4f70-a600-043d4071c996</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=72d6459b8726c2500548ca68cebb353a"/>
@@ -8903,15 +8903,15 @@
         <sys_created_on>2024-06-07 18:34:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>8fd6459b8726c2500548ca68cebb3573</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>afbf3f00-b5c2-4297-a049-e853a09f4b90</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8fd6459b8726c2500548ca68cebb3573"/>
@@ -9058,15 +9058,15 @@
         <sys_created_on>2024-06-07 18:34:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b6d6459b8726c2500548ca68cebb3567</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>2c4b5b3c-89e7-4cd8-bf21-e4fc9ccc428b</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b6d6459b8726c2500548ca68cebb3567"/>
@@ -9176,13 +9176,13 @@
         <input_name>checklist_template</input_name>
         <instance>b6d6459b8726c2500548ca68cebb3567</instance>
         <referenced_table>sys_hub_sub_flow_instance</referenced_table>
-        <script>{"checklist_template":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar cat \u003d fd_data._1__get_catalog_variables.u_leave_type.toString();\nvar ed \u003d fd_data._1__get_catalog_variables.u_emp_type.toString();\n\nif (cat \u003d\u003d \u0027Maternity\u0027 || cat \u003d\u003d \u0027Medical (Self)\u0027) {\n    if (ed \u003d\u003d \u0027Faculty\u0027 || ed \u003d\u003d \u0027Academic\u0027 || ed \u003d\u003d \u0027Faculty (Non-HCOMP)\u0027) {\n        //NOVA Leaves Maternity/Employee Own Illness Leave Designation Faculty/Academic Task\n        return \u0027f647949b8762c2500548ca68cebb3523\u0027;\n    }\n    else {\n        //NOVA Leaves Maternity/Employee Own Illness Leave Designation Postdoc Task\n        return \u00272e5714db8762c2500548ca68cebb3530\u0027;\n    }\n}\nelse if (cat \u003d\u003d \u0027Parental Bonding\u0027 || cat \u003d\u003d \u0027Medical (Family Member)\u0027) {\n    if (ed \u003d\u003d \u0027Faculty\u0027 || ed \u003d\u003d \u0027Academic\u0027 || ed \u003d\u003d \u0027Faculty (Non-HCOMP)\u0027) {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Designation Faculty/Academic Task\n        return \u0027fcc7105f8762c2500548ca68cebb35a0\u0027;\n    }\n    else {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Designation Postdoc Task\n        return \u0027afa7d89b8762c2500548ca68cebb3503\u0027;\n    }\n}\nelse if (ed !\u003d \u0027Faculty\u0027 \u0026\u0026 ed !\u003d \u0027Academic\u0027 \u0026\u0026 ed !\u003d \u0027Faculty (Non-HCOMP)\u0027 \u0026\u0026 cat \u003d\u003d \u0027Personal\u0027) {\n    //NOVA Leaves Postdoc Personal Leave Designation Task\n    return \u0027f3e9509f8762c2500548ca68cebb3573\u0027;\n}\nelse {\n    //NOVA Leaves Faculty/Academic Personal/All Academic/Jury Duty/Repro Loss/Bereavement Leave Designation Task\n    return \u00274dd9509f8762c2500548ca68cebb3571\u0027;\n}"}}</script>
+        <script>{"checklist_template":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar cat \u003d fd_data._1__get_catalog_variables.u_leave_type.toString();\nvar ed \u003d fd_data._1__get_catalog_variables.u_emp_type.toString();\n\nvar gr;\nvar templateID;\n\nif (cat \u003d\u003d \u0027Maternity\u0027 || cat \u003d\u003d \u0027Medical (Self)\u0027) {\n    if (ed \u003d\u003d \u0027Faculty\u0027 || ed \u003d\u003d \u0027Academic\u0027 || ed \u003d\u003d \u0027Faculty (Non-HCOMP)\u0027) {\n        //NOVA Leaves Maternity/Employee Own Illness Leave Designation Faculty/Academic Task\n        templateID \u003d \u0027f647949b8762c2500548ca68cebb3523\u0027;\n    }\n    else {\n        //NOVA Leaves Maternity/Employee Own Illness Leave Designation Postdoc Task\n        templateID \u003d \u00272e5714db8762c2500548ca68cebb3530\u0027;\n    }\n}\nelse if (cat \u003d\u003d \u0027Parental Bonding\u0027 || cat \u003d\u003d \u0027Medical (Family Member)\u0027) {\n    if (ed \u003d\u003d \u0027Faculty\u0027 || ed \u003d\u003d \u0027Academic\u0027 || ed \u003d\u003d \u0027Faculty (Non-HCOMP)\u0027) {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Designation Faculty/Academic Task\n        templateID \u003d \u0027fcc7105f8762c2500548ca68cebb35a0\u0027;\n    }\n    else {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Designation Postdoc Task\n        templateID \u003d \u0027afa7d89b8762c2500548ca68cebb3503\u0027;\n    }\n}\nelse if (ed !\u003d \u0027Faculty\u0027 \u0026\u0026 ed !\u003d \u0027Academic\u0027 \u0026\u0026 ed !\u003d \u0027Faculty (Non-HCOMP)\u0027 \u0026\u0026 cat \u003d\u003d \u0027Personal\u0027) {\n    //NOVA Leaves Postdoc Personal Leave Designation Task\n    templateID \u003d \u0027f3e9509f8762c2500548ca68cebb3573\u0027;\n}\nelse {\n    //NOVA Leaves Faculty/Academic Personal/All Academic/Jury Duty/Repro Loss/Bereavement Leave Designation Task\n    templateID \u003d \u00274dd9509f8762c2500548ca68cebb3571\u0027;\n}\n\nvar tmpid \u003d new GlideRecord(\u0027checklist_template\u0027);\ntmpid.get(templateID);\nreturn tmpid;"}}</script>
         <sys_created_by>tmbuchanan</sys_created_by>
         <sys_created_on>2024-06-07 18:34:29</sys_created_on>
         <sys_id>c3d6459b8726c2500548ca68cebb3573</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-07 18:34:29</sys_updated_on>
+        <sys_updated_on>2024-10-08 21:22:45</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
         <attributes/>
@@ -9200,15 +9200,15 @@
         <sys_created_on>2024-06-07 18:34:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>cbd6459b8726c2500548ca68cebb3599</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:47</sys_updated_on>
         <ui_id>783643e1-bfd3-4f6a-a0a4-c21a5f1febab</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cbd6459b8726c2500548ca68cebb3599"/>
@@ -9355,15 +9355,15 @@
         <sys_created_on>2024-06-07 18:34:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>fad6459b8726c2500548ca68cebb355a</sys_id>
-        <sys_mod_count>76</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:56</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>d3504c93-ad56-4a21-a331-f3faff6c2689</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fad6459b8726c2500548ca68cebb355a"/>
@@ -9473,13 +9473,13 @@
         <input_name>checklist_template</input_name>
         <instance>fad6459b8726c2500548ca68cebb355a</instance>
         <referenced_table>sys_hub_sub_flow_instance</referenced_table>
-        <script>{"checklist_template":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar cat \u003d fd_data._1__get_catalog_variables.u_leave_type.toString();\nvar et \u003d fd_data._1__get_catalog_variables.u_emp_type.toString();\n\nif (et \u003d\u003d \u0027Faculty\u0027 || et \u003d\u003d \u0027Academic\u0027 || et \u003d\u003d \u0027Faculty (Non-HCOMP)\u0027) {\n    //Use Faculty/Academic Templates\n    if (cat \u003d\u003d \u0027Maternity\u0027) {\n        //NOVA Leaves Maternity Leave Paperwork Faculty/Academic Task\n        return \u0027a69f485f8722c2500548ca68cebb35be\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Parental Bonding\u0027 || cat \u003d\u003d \u0027Medical (Family Member)\u0027) {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Paperwork Faculty/Academic Task\n        return \u0027ebb3d8178762c2500548ca68cebb3558\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Medical (Self)\u0027) {\n        //NOVA Leaves Employee\u0027s Own Illness Leave Paperwork Faculty/Academic Task\n        return \u00275f25141b8762c2500548ca68cebb352a\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Personal\u0027 || cat \u003d\u003d \u0027Sabbatical\u0027 || cat \u003d\u003d \u0027Leave in Lieu of Sabbatical\u0027 || cat \u003d\u003d \u0027Research/Professional Development\u0027 || cat \u003d\u003d \u0027Change in Work Location\u0027) {\n        //NOVA Leaves Personal/Academic Leave Paperwork Task\n        return \u0027c6659c5b8762c2500548ca68cebb357c\u0027;\n    }\n    else {\n        //NOVA Leaves Jury Duty, Bereavement, and Reproductive Loss Leave Paperwork Task\n        return \u002702f5949b8762c2500548ca68cebb351e\u0027;\n    }\n}\nelse {\n    //Use Postdoc templates\n    if (cat \u003d\u003d \u0027Maternity\u0027) {\n        //NOVA Leaves Maternity Leave Paperwork Postdoc Task\n        return \u002771219cdf8722c2500548ca68cebb35d4\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Parental Bonding\u0027 || cat \u003d\u003d \u0027Medical (Family Member)\u0027) {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Paperwork Postdoc Task\n        return \u0027afa7d89b8762c2500548ca68cebb3503\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Medical (Self)\u0027) {\n        //NOVA Leaves Employee\u0027s Own Illness Leave Paperwork Postdoc Task\n        return \u00278b3594978762c2500548ca68cebb3597\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Personal\u0027 || cat \u003d\u003d \u0027Sabbatical\u0027 || cat \u003d\u003d \u0027Leave in Lieu of Sabbatical\u0027 || cat \u003d\u003d \u0027Research/Professional Development\u0027 || cat \u003d\u003d \u0027Change in Work Location\u0027) {\n        //NOVA Leaves Personal/Academic Leave Paperwork Task\n        return \u0027c6659c5b8762c2500548ca68cebb357c\u0027;\n    }\n    else {\n        //NOVA Leaves Jury Duty, Bereavement, and Reproductive Loss Leave Paperwork Task\n        return \u002702f5949b8762c2500548ca68cebb351e\u0027;\n    }\n}"}}</script>
+        <script>{"checklist_template":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar cat \u003d fd_data._1__get_catalog_variables.u_leave_type.toString();\nvar et \u003d fd_data._1__get_catalog_variables.u_emp_type.toString();\n\nvar gr;\nvar templateID;\n\nif (et \u003d\u003d \u0027Faculty\u0027 || et \u003d\u003d \u0027Academic\u0027 || et \u003d\u003d \u0027Faculty (Non-HCOMP)\u0027) {\n    //Use Faculty/Academic Templates\n    if (cat \u003d\u003d \u0027Maternity\u0027) {\n        //NOVA Leaves Maternity Leave Paperwork Faculty/Academic Task\n        //gs.log(\u0027Subflow - Faculty maternity leave paperwork\u0027);\n        templateID \u003d \u0027a69f485f8722c2500548ca68cebb35be\u0027;\n        //return \u0027NOVA Leaves Maternity Leave Paperwork Faculty/Academic Task\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Parental Bonding\u0027 || cat \u003d\u003d \u0027Medical (Family Member)\u0027) {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Paperwork Faculty/Academic Task\n        templateID \u003d \u0027ebb3d8178762c2500548ca68cebb3558\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Medical (Self)\u0027) {\n        //NOVA Leaves Employee\u0027s Own Illness Leave Paperwork Faculty/Academic Task\n        templateID \u003d \u00275f25141b8762c2500548ca68cebb352a\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Personal\u0027 || cat \u003d\u003d \u0027Sabbatical\u0027 || cat \u003d\u003d \u0027Leave in Lieu of Sabbatical\u0027 || cat \u003d\u003d \u0027Research/Professional Development\u0027 || cat \u003d\u003d \u0027Change in Work Location\u0027) {\n        //NOVA Leaves Personal/Academic Leave Paperwork Task\n        templateID \u003d \u0027c6659c5b8762c2500548ca68cebb357c\u0027;\n    }\n    else {\n        //NOVA Leaves Jury Duty, Bereavement, and Reproductive Loss Leave Paperwork Task\n        templateID \u003d \u002702f5949b8762c2500548ca68cebb351e\u0027;\n    }\n}\nelse {\n    //Use Postdoc templates\n    if (cat \u003d\u003d \u0027Maternity\u0027) {\n        //NOVA Leaves Maternity Leave Paperwork Postdoc Task\n        templateID \u003d \u002771219cdf8722c2500548ca68cebb35d4\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Parental Bonding\u0027 || cat \u003d\u003d \u0027Medical (Family Member)\u0027) {\n        //NOVA Leaves Parental Bonding/Care for Family Member Leave Paperwork Postdoc Task\n        templateID \u003d \u0027afa7d89b8762c2500548ca68cebb3503\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Medical (Self)\u0027) {\n        //NOVA Leaves Employee\u0027s Own Illness Leave Paperwork Postdoc Task\n        templateID \u003d \u00278b3594978762c2500548ca68cebb3597\u0027;\n    }\n    else if (cat \u003d\u003d \u0027Personal\u0027 || cat \u003d\u003d \u0027Sabbatical\u0027 || cat \u003d\u003d \u0027Leave in Lieu of Sabbatical\u0027 || cat \u003d\u003d \u0027Research/Professional Development\u0027 || cat \u003d\u003d \u0027Change in Work Location\u0027) {\n        //NOVA Leaves Personal/Academic Leave Paperwork Task\n        templateID \u003d \u0027c6659c5b8762c2500548ca68cebb357c\u0027;\n    }\n    else {\n        //NOVA Leaves Jury Duty, Bereavement, and Reproductive Loss Leave Paperwork Task\n        templateID \u003d \u002702f5949b8762c2500548ca68cebb351e\u0027;\n    }\n}\n\nvar tmpid \u003d new GlideRecord(\u0027checklist_template\u0027);\ntmpid.get(templateID);\nreturn tmpid;"}}</script>
         <sys_created_by>tmbuchanan</sys_created_by>
         <sys_created_on>2024-06-07 18:34:29</sys_created_on>
         <sys_id>3ad6459b8726c2500548ca68cebb3566</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-07 18:34:29</sys_updated_on>
+        <sys_updated_on>2024-10-08 21:22:45</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
         <active>false</active>
@@ -9518,15 +9518,15 @@
         <sys_created_on>2024-07-23 17:20:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>662f2d46872bca50e4cdba2c8bbb35c2</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:07:55</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:46</sys_updated_on>
         <ui_id>df1957d9-9b15-4489-8f6b-9b3b86a668c2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -9987,21 +9987,21 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>c87eac4b87b58a500548ca68cebb35e0</sys_id>
         <latest_snapshot>d25520c21ba68e103b2aececbc4bcb55</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patch9-hotfix2a-06-19-2024_07-11-2024_1609.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch10-hotfix2-08-01-2024_08-12-2024_1557.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=c87eac4b87b58a500548ca68cebb35e0^sys_idNOT IN665560c21ba68e103b2aececbc4bcb28"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"665560c21ba68e103b2aececbc4bcb28","name":"plan","plan_signature":null}}</plan>
         <plan_id>c87eac4b87b58a500548ca68cebb35e0</plan_id>
-        <snapshot>9eee11fb93845a1077eefda74dba10d3</snapshot>
+        <snapshot>fb19c77e938d161077eefda74dba1013</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>tmbuchanan</sys_created_by>
         <sys_created_on>2024-06-03 18:55:41</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>665560c21ba68e103b2aececbc4bcb28</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -10009,8 +10009,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name/>
-        <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-08-22 23:08:01</sys_updated_on>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-08 21:22:51</sys_updated_on>
         <trigger display_value="">6e5560c21ba68e103b2aececbc4bcb27</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=c87eac4b87b58a500548ca68cebb35e0"/>

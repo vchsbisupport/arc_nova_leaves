@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
         <inactive>false</inactive>
-        <order>800</order>
+        <order>500</order>
         <published_ref/>
         <question display_value="The family member is my...">a017ec461ba68e103b2aececbc4bcbaa</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>tmbuchanan</sys_created_by>
-        <sys_created_on>2024-06-03 19:05:09</sys_created_on>
+        <sys_created_on>2024-10-07 19:26:24</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>5987e4861ba68e103b2aececbc4bcb56</sys_id>
+        <sys_id>f8b4216293c1d21077eefda74dba102c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Next of Kin</sys_name>
-        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_name>Parent-In-Law</sys_name>
+        <sys_package/>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
-        <sys_update_name>question_choice_5987e4861ba68e103b2aececbc4bcb56</sys_update_name>
+        <sys_update_name>question_choice_f8b4216293c1d21077eefda74dba102c</sys_update_name>
         <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-03 19:05:09</sys_updated_on>
-        <text>Next of Kin</text>
-        <value>Next of Kin</value>
+        <sys_updated_on>2024-10-07 19:26:24</sys_updated_on>
+        <text>Parent-In-Law</text>
+        <value>Parent-In-Law</value>
     </question_choice>
-    <fx_price action="delete_multiple" query="id=5987e4861ba68e103b2aececbc4bcb56"/>
+    <fx_price action="delete_multiple" query="id=f8b4216293c1d21077eefda74dba102c"/>
 </record_update>

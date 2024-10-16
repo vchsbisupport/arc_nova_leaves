@@ -66,7 +66,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>8f5e64a387d78e10e4cdba2c8bbb351a</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>NOVA Leaves - Request Received</sys_name>
         <sys_overrides/>
         <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
@@ -75,7 +75,7 @@
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name>sysevent_email_action_8f5e64a387d78e10e4cdba2c8bbb351a</sys_update_name>
         <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-07-18 17:39:27</sys_updated_on>
+        <sys_updated_on>2024-10-15 22:36:28</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

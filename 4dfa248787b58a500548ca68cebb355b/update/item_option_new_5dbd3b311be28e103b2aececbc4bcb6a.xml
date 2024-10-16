@@ -42,7 +42,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>col_leave_info</name>
-        <order>2200</order>
+        <order>2400</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -78,15 +78,15 @@
         <sys_created_on>2024-06-03 16:02:29</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>5dbd3b311be28e103b2aececbc4bcb6a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>2 Col Leave Info</sys_name>
-        <sys_package/>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name>item_option_new_5dbd3b311be28e103b2aececbc4bcb6a</sys_update_name>
         <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-06-03 19:57:53</sys_updated_on>
+        <sys_updated_on>2024-10-07 20:36:15</sys_updated_on>
         <table/>
         <tooltip/>
         <type>19</type>
