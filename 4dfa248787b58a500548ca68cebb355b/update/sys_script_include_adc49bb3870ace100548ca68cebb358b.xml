@@ -56,6 +56,30 @@ novaLeavesHelper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         return usr.u_emp_type.toString();
     },
 
+	getUserID: function() {
+        var ritm = this.getParameter('sysparm_ritm_sid');
+		var gr = new GlideRecord('sc_req_item');
+		gr.get(ritm);
+
+        return gr.u_air_emp.u_sys_user.sys_id.toString();
+    },
+
+	closeTask: function() {
+		gs.log('closeTask!');
+        var ritm = this.getParameter('sysparm_ritm_sid');
+		gs.log('ritm sysid: ' + ritm);
+		var gr = new GlideRecord('sc_task');
+		gr.addQuery('request_item', ritm);
+		gr.addQuery('short_description', 'Monitor Return to Work Confirmation');
+		gr.query();
+		if (gr.next()) {
+			gr.state = 3;
+			gr.update();
+			gs.addInfoMessage('Task ' + gr.number + ' is closed.');
+		}
+		return ' ';
+    },
+
 	retLeaveDates: function() {
 		var ritm = this.getParameter('sysparm_nova_ritm');
 
@@ -167,14 +191,14 @@ novaLeavesHelper.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_created_on>2024-05-15 21:45:16</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>adc49bb3870ace100548ca68cebb358b</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>59</sys_mod_count>
         <sys_name>novaLeavesHelper</sys_name>
         <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name>sys_script_include_adc49bb3870ace100548ca68cebb358b</sys_update_name>
-        <sys_updated_by>tmbuchanan</sys_updated_by>
-        <sys_updated_on>2024-10-03 18:47:43</sys_updated_on>
+        <sys_updated_by>joh014</sys_updated_by>
+        <sys_updated_on>2024-10-17 17:30:02</sys_updated_on>
     </sys_script_include>
 </record_update>

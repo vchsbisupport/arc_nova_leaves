@@ -16,7 +16,7 @@
         </condition>
         <content_type>text/html</content_type>
         <default_interval/>
-        <description>Leave Plan generation task created.&#13;
+        <description>Leave Plan Follow-up task created.&#13;
 Triggered by flow "ARC NOVA Leaves"</description>
         <digest_from/>
         <digest_html/>
@@ -62,7 +62,7 @@ Triggered by flow "ARC NOVA Leaves"</description>
 <p>The ARC Team</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>NOVA Leaves - Plan Generation Task</name>
+        <name>NOVA Leaves - Plan Follow-up Task</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -77,20 +77,20 @@ Triggered by flow "ARC NOVA Leaves"</description>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>joh014</sys_created_by>
-        <sys_created_on>2024-07-19 17:37:42</sys_created_on>
+        <sys_created_on>2024-10-16 21:29:20</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>38ac413487ef0650e4cdba2c8bbb35e6</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>NOVA Leaves - Plan Generation Task</sys_name>
+        <sys_id>a927582993d9da10cbc63b4c5cba10b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOVA Leaves - Plan Follow-up Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
-        <sys_update_name>sysevent_email_action_38ac413487ef0650e4cdba2c8bbb35e6</sys_update_name>
+        <sys_update_name>sysevent_email_action_a927582993d9da10cbc63b4c5cba10b5</sys_update_name>
         <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-10-16 21:17:35</sys_updated_on>
+        <sys_updated_on>2024-10-16 21:29:20</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
