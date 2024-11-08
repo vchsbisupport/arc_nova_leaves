@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="97edc1f793445a1077eefda74dba10c0" sys_domain="global" table="sc_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>joh014</sys_created_by>
+            <sys_created_on>2024-08-22 21:56:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a3edc1f793445a1077eefda74dba10c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sc_task" name="sc_task" sys_domain="global" view="7b9b54af876d4a100548ca68cebb35a7">97edc1f793445a1077eefda74dba10c0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sc_task" sys_domain="global" view="7b9b54af876d4a100548ca68cebb35a7">73ad09b793445a1077eefda74dba10e8</sys_ui_section>
+            <sys_updated_by>joh014</sys_updated_by>
+            <sys_updated_on>2024-08-22 21:56:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>joh014</sys_created_by>
+            <sys_created_on>2024-08-22 21:56:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e7edc1f793445a1077eefda74dba10c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sc_task" name="sc_task" sys_domain="global" view="7b9b54af876d4a100548ca68cebb35a7">97edc1f793445a1077eefda74dba10c0</sys_ui_form>
+            <sys_ui_section caption="Checklist" display_value="Checklist" name="sc_task" sys_domain="global" view="7b9b54af876d4a100548ca68cebb35a7">abedc1f793445a1077eefda74dba10c1</sys_ui_section>
+            <sys_updated_by>joh014</sys_updated_by>
+            <sys_updated_on>2024-08-22 21:56:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>joh014</sys_created_by>
+            <sys_created_on>2024-08-22 21:58:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>056ec9f793445a1077eefda74dba1051</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sc_task" name="sc_task" sys_domain="global" view="7b9b54af876d4a100548ca68cebb35a7">97edc1f793445a1077eefda74dba10c0</sys_ui_form>
+            <sys_ui_section caption="Communications and Activities" display_value="Communications and Activities" name="sc_task" sys_domain="global" view="7b9b54af876d4a100548ca68cebb35a7">c56ec9f793445a1077eefda74dba104f</sys_ui_section>
+            <sys_updated_by>joh014</sys_updated_by>
+            <sys_updated_on>2024-08-22 21:58:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>joh014</sys_created_by>
+            <sys_created_on>2024-08-22 21:59:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>dcbe8df793445a1077eefda74dba1041</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sc_task" name="sc_task" sys_domain="global" view="7b9b54af876d4a100548ca68cebb35a7">97edc1f793445a1077eefda74dba10c0</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="sc_task" sys_domain="global" view="7b9b54af876d4a100548ca68cebb35a7">40be8df793445a1077eefda74dba1040</sys_ui_section>
+            <sys_updated_by>joh014</sys_updated_by>
+            <sys_updated_on>2024-08-22 21:59:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sc_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>joh014</sys_created_by>
+            <sys_created_on>2024-08-22 21:56:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>97edc1f793445a1077eefda74dba10c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sc_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_97edc1f793445a1077eefda74dba10c0</sys_update_name>
+            <sys_updated_by>joh014</sys_updated_by>
+            <sys_updated_on>2024-08-22 21:56:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="NOVA Task" name="nova_task_view">7b9b54af876d4a100548ca68cebb35a7</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

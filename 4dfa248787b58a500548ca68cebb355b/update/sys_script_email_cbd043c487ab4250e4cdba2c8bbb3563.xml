@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>nova_leave_group_assign_subject</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+
+    // Add your code here
+    email.setSubject('Action Required: ' + current.number + ' has been assigned to the Group and Pending Assignee - ' + current.request_item.number);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>joh014</sys_created_by>
+        <sys_created_on>2024-07-17 18:11:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cbd043c487ab4250e4cdba2c8bbb3563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>nova_leave_group_assign_subject</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>sys_script_email_cbd043c487ab4250e4cdba2c8bbb3563</sys_update_name>
+        <sys_updated_by>joh014</sys_updated_by>
+        <sys_updated_on>2024-07-17 18:11:28</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Leave of Absence Submission">bc7de04b87b58a500548ca68cebb35ca</catalog_item>
+        <catalog_variable>IO:f7ccc3351b46c6103b2aececbc4bcb05</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>tmbuchanan</sys_created_by>
+        <sys_created_on>2024-05-15 21:40:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e2d417b3870ace100548ca68cebb3599</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>opened_by</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e2d417b3870ace100548ca68cebb3599</sys_update_name>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-05-15 21:40:27</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Default">f47417b3870ace100548ca68cebb351f</ui_policy>
+        <variable>opened_by</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

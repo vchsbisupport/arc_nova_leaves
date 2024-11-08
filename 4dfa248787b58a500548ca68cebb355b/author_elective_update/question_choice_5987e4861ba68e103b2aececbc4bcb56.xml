@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>800</order>
+        <published_ref/>
+        <question display_value="The family member is my...">a017ec461ba68e103b2aececbc4bcbaa</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>tmbuchanan</sys_created_by>
+        <sys_created_on>2024-06-03 19:05:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5987e4861ba68e103b2aececbc4bcb56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Next of Kin</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>question_choice_5987e4861ba68e103b2aececbc4bcb56</sys_update_name>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-06-03 19:05:09</sys_updated_on>
+        <text>Next of Kin</text>
+        <value>Next of Kin</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=5987e4861ba68e103b2aececbc4bcb56"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</application>
+        <comments/>
+        <file_path/>
+        <instance_id>6ad79145fd9d4180bc668279a1340be8</instance_id>
+        <instance_name>ucsdhealthtest</instance_name>
+        <name>question_choice_5987e4861ba68e103b2aececbc4bcb56</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>800</order><published_ref/><question display_value="The family member is my...">a017ec461ba68e103b2aececbc4bcbaa</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>tmbuchanan</sys_created_by><sys_created_on>2024-06-03 19:05:09</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>5987e4861ba68e103b2aececbc4bcb56</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Next of Kin</sys_name><sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope><sys_update_name>question_choice_5987e4861ba68e103b2aececbc4bcb56</sys_update_name><sys_updated_by>tmbuchanan</sys_updated_by><sys_updated_on>2024-06-03 19:05:09</sys_updated_on><text>Next of Kin</text><value>Next of Kin</value></question_choice><fx_price action="delete_multiple" query="id=5987e4861ba68e103b2aececbc4bcb56"/></record_update>]]></payload>
+        <payload_hash>-160569635</payload_hash>
+        <record_name>Next of Kin</record_name>
+        <reverted_from/>
+        <source>9731b6ea93349a5077eefda74dba100c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>tmbuchanan</sys_created_by>
+        <sys_created_on>2024-09-25 14:45:12</sys_created_on>
+        <sys_id>bc41baea93349a5077eefda74dba10bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19229a4b3080000001</sys_recorded_at>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-09-25 14:45:12</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>6041baea9f349a50b8c20a19d20fddbd</update_guid>
+        <update_guid_history>6041baea9f349a50b8c20a19d20fddbd:-160569635,e7a741c8951cd610c91a833ac5d25312:-670294796</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2024-10-07 12:27:15">51e429e29309d210cbc63b4c5cba1037</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>tmbuchanan</sys_created_by>
+        <sys_created_on>2024-10-07 19:27:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>a4f40ac3afff48a6906f8690a983ab31</sys_id>
+        <sys_metadata>5987e4861ba68e103b2aececbc4bcb56</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Next of Kin</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_parent display_value="The family member is my...">a017ec461ba68e103b2aececbc4bcbaa</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_scope_delete display_value="">4467999176f84530b3d31be0140dac40</sys_scope_delete>
+        <sys_update_name>question_choice_5987e4861ba68e103b2aececbc4bcb56</sys_update_name>
+        <sys_update_version display_value="question_choice_5987e4861ba68e103b2aececbc4bcb56">bc41baea93349a5077eefda74dba10bd</sys_update_version>
+        <sys_updated_by>tmbuchanan</sys_updated_by>
+        <sys_updated_on>2024-10-07 19:27:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

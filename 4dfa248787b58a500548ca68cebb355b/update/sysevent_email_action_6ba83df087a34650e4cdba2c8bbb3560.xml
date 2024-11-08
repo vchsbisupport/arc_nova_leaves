@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sc_task</collection>
+        <condition table="sc_task">request_item.sc_catalog=a92664396f47610023bd5965bd3ee4bf^request_item.cat_item=bc7de04b87b58a500548ca68cebb35ca^assigned_toISEMPTY^assignment_groupVALCHANGES^assignment_groupISNOTEMPTY^EQ<item display_table="sc_catalog" display_value="Forms for Faculty and Academic Employees" endquery="false" field="request_item.sc_catalog" goto="false" newquery="false" operator="=" or="false" value="a92664396f47610023bd5965bd3ee4bf"/>
+            <item display_table="sc_cat_item" display_value="Leave of Absence Submission" endquery="false" field="request_item.cat_item" goto="false" newquery="false" operator="=" or="false" value="bc7de04b87b58a500548ca68cebb35ca"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>Monitor Return to Work task created.&#13;
+Triggered by flow "ARC NOVA Leaves"</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>aa.analyst_sheet</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from>Academic Resource Center &lt;ARCRequest@health.ucsd.edu&gt;</from>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>${mail_script:nova_leave_task_sub}</p>
+<p>Hello ${assigned_to.first_name} ${assigned_to.last_name},</p>
+<p>The Employee has a leave end date of ${mail_script:nova_leave_end_date} and will need to provide a Return to Work form prior to the end of their leave. Please monitor and follow up with the Employee as needed.&nbsp;</p>
+<p><strong>Short Description</strong>: ${short_description}</p>
+<p><strong>Assignment Group</strong>: ${assignment_group.name}</p>
+<p><strong>Assigned To</strong>:&nbsp; ${assigned_to.first_name} ${assigned_to.last_name}</p>
+<p>Click here to view task: ${URI}</p>
+<p>&nbsp;</p>
+<p>About&nbsp;${request_item.number}:</p>
+<p><strong>Short Description</strong>: ${request_item.short_description}</p>
+<p><strong>Employee</strong>: ${request_item.u_air_emp.u_first_name} ${request_item.u_air_emp.u_last_name}</p>
+<p><strong>Department</strong>:&nbsp;${request_item.u_air_emp.u_home_department.name}</p>
+<p><strong>Division</strong>:&nbsp;${request_item.u_air_emp.u_division.u_division}</p>
+<p><strong>Leave Type</strong>:&nbsp;${mail_script:nova_leave_type}</p>
+<p><strong>Leave Date</strong>:&nbsp;${mail_script:nova_leave_eff_date} <br /><br /><br /></p>
+<p>Thank you,</p>
+<p>The ARC Team</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>NOVA Leaves - Monitor RTW</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to>ARCRequest@health.ucsd.edu</reply_to>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject/>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>joh014</sys_created_by>
+        <sys_created_on>2024-07-19 20:50:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6ba83df087a34650e4cdba2c8bbb3560</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOVA Leaves - Monitor RTW</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>sysevent_email_action_6ba83df087a34650e4cdba2c8bbb3560</sys_update_name>
+        <sys_updated_by>joh014</sys_updated_by>
+        <sys_updated_on>2024-07-19 20:50:09</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

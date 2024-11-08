@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="NOVA Leaves RTW in 30 days">92abe6b01bc8de103b2aececbc4bcb21</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>joh014</sys_created_by>
+        <sys_created_on>2024-08-14 15:22:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f5f6aa051b8c12503b2aececbc4bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>92abe6b01bc8de103b2aececbc4bcb21</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>sys_report_users_groups_f5f6aa051b8c12503b2aececbc4bcb6a</sys_update_name>
+        <sys_updated_by>joh014</sys_updated_by>
+        <sys_updated_on>2024-08-14 15:22:14</sys_updated_on>
+        <user_id display_value="Sheila Mosley">5e81d12f6f82850023bd5965bd3ee48b</user_id>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</application>
+        <comments/>
+        <file_path/>
+        <instance_id>1ad7d109c1518d4058ebef28e38e5615</instance_id>
+        <instance_name>ucsdhealthdev</instance_name>
+        <name>sys_report_users_groups_f5f6aa051b8c12503b2aececbc4bcb6a</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="NOVA Leaves RTW in 30 days">92abe6b01bc8de103b2aececbc4bcb21</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>joh014</sys_created_by><sys_created_on>2024-08-14 15:22:14</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>f5f6aa051b8c12503b2aececbc4bcb6a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>92abe6b01bc8de103b2aececbc4bcb21</sys_name><sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope><sys_update_name>sys_report_users_groups_f5f6aa051b8c12503b2aececbc4bcb6a</sys_update_name><sys_updated_by>joh014</sys_updated_by><sys_updated_on>2024-08-14 15:22:14</sys_updated_on><user_id display_value="Sheila Mosley">5e81d12f6f82850023bd5965bd3ee48b</user_id></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>196666406</payload_hash>
+        <record_name>92abe6b01bc8de103b2aececbc4bcb21</record_name>
+        <reverted_from/>
+        <source>4cee267387930250e4cdba2c8bbb355c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>joh014</sys_created_by>
+        <sys_created_on>2024-08-14 15:22:14</sys_created_on>
+        <sys_id>71f6aa051b8c12503b2aececbc4bcb6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191517b82ed0000001</sys_recorded_at>
+        <sys_updated_by>joh014</sys_updated_by>
+        <sys_updated_on>2024-08-14 15:22:14</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>75f6aa05968c125043fae1f9887ed06b</update_guid>
+        <update_guid_history>75f6aa05968c125043fae1f9887ed06b:196666406</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>joh014</sys_created_by>
+        <sys_created_on>2024-08-14 15:23:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>1e3f3ee4600f4890852ff7d1bd3c5610</sys_id>
+        <sys_metadata>f5f6aa051b8c12503b2aececbc4bcb6a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>92abe6b01bc8de103b2aececbc4bcb21</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_parent display_value="NOVA Leaves RTW in 30 days">92abe6b01bc8de103b2aececbc4bcb21</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_scope_delete display_value="">4467999176f84530b3d31be0140dac40</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_f5f6aa051b8c12503b2aececbc4bcb6a</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_f5f6aa051b8c12503b2aececbc4bcb6a">71f6aa051b8c12503b2aececbc4bcb6c</sys_update_version>
+        <sys_updated_by>joh014</sys_updated_by>
+        <sys_updated_on>2024-08-14 15:23:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

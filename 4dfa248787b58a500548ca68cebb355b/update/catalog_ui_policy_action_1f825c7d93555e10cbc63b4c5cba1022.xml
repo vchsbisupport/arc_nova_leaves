@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Leave of Absence">bc7de04b87b58a500548ca68cebb35ca</catalog_item>
+        <catalog_variable>IO:b614ace9931dda10cbc63b4c5cba10ea</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>joh014</sys_created_by>
+        <sys_created_on>2024-10-17 15:48:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1f825c7d93555e10cbc63b4c5cba1022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_ritm</sys_name>
+        <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1f825c7d93555e10cbc63b4c5cba1022</sys_update_name>
+        <sys_updated_by>joh014</sys_updated_by>
+        <sys_updated_on>2024-10-17 15:48:03</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide RITM reference field">7e62987d93555e10cbc63b4c5cba105b</ui_policy>
+        <variable>u_ritm</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>
