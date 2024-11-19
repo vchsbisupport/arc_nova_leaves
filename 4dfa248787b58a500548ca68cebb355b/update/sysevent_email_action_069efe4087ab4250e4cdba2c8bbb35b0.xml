@@ -7,8 +7,7 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>sc_task</collection>
-        <condition table="sc_task">request_item.sc_catalog=a92664396f47610023bd5965bd3ee4bf^request_item.cat_item=bc7de04b87b58a500548ca68cebb35ca^assigned_toISEMPTY^assignment_groupVALCHANGES^assignment_groupISNOTEMPTY^EQ<item display_table="sc_catalog" display_value="Forms for Faculty and Academic Employees" endquery="false" field="request_item.sc_catalog" goto="false" newquery="false" operator="=" or="false" value="a92664396f47610023bd5965bd3ee4bf"/>
-            <item display_table="sc_cat_item" display_value="Leave of Absence Submission" endquery="false" field="request_item.cat_item" goto="false" newquery="false" operator="=" or="false" value="bc7de04b87b58a500548ca68cebb35ca"/>
+        <condition table="sc_task">request_item.cat_item=bc7de04b87b58a500548ca68cebb35ca^assigned_toISEMPTY^assignment_groupVALCHANGES^assignment_groupISNOTEMPTY^EQ<item display_table="sc_cat_item" display_value="Leave of Absence" endquery="false" field="request_item.cat_item" goto="false" newquery="false" operator="=" or="false" value="bc7de04b87b58a500548ca68cebb35ca"/>
             <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
             <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
             <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
@@ -80,7 +79,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>069efe4087ab4250e4cdba2c8bbb35b0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>NOVA Leaves - Task Group Assignment</sys_name>
         <sys_overrides/>
         <sys_package display_value="ARC NOVA Leaves" source="4dfa248787b58a500548ca68cebb355b">4dfa248787b58a500548ca68cebb355b</sys_package>
@@ -89,7 +88,7 @@
         <sys_scope display_value="ARC NOVA Leaves">4dfa248787b58a500548ca68cebb355b</sys_scope>
         <sys_update_name>sysevent_email_action_069efe4087ab4250e4cdba2c8bbb35b0</sys_update_name>
         <sys_updated_by>joh014</sys_updated_by>
-        <sys_updated_on>2024-07-19 17:45:01</sys_updated_on>
+        <sys_updated_on>2024-11-08 18:42:12</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
